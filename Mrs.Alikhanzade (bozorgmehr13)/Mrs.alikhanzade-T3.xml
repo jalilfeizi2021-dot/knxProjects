@@ -1,0 +1,4294 @@
+﻿<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<SPadSettings>
+  <SettingsHeaders>
+    <SettingsHeader>
+      <title>Display Settings</title>
+      <summary />
+      <id>1</id>
+      <Settings>
+        <Setting>
+          <category>Background Image</category>
+          <title>Background Type</title>
+          <summary>Background Type</summary>
+          <value>1</value>
+          <defaultvalue>1</defaultvalue>
+          <key>prefDisplayBackgroundType</key>
+          <type>4</type>
+          <ListItems>
+            <ListItem>
+              <title>Color</title>
+              <id>0</id>
+            </ListItem>
+            <ListItem>
+              <title>Picture</title>
+              <id>1</id>
+            </ListItem>
+            <ListItem>
+              <title>Slide Show</title>
+              <id>2</id>
+            </ListItem>
+          </ListItems>
+        </Setting>
+        <Setting>
+          <category>Background Image</category>
+          <title>Image Change Frequency</title>
+          <summary />
+          <value>600</value>
+          <defaultvalue>600</defaultvalue>
+          <key>prefSlideShowPeriod</key>
+          <type>1</type>
+          <ListItems />
+        </Setting>
+      </Settings>
+      <Settings>
+        <Setting>
+          <category>Image Frame</category>
+          <title>Frame Text</title>
+          <summary />
+          <value>Image Frame</value>
+          <defaultvalue>@2131558918</defaultvalue>
+          <key>prefPicturesTitle</key>
+          <type>1</type>
+          <ListItems />
+        </Setting>
+        <Setting>
+          <category>Image Frame</category>
+          <title>Slide Show Time</title>
+          <summary>Remaining Time To Start Slide Show.</summary>
+          <value>600000</value>
+          <defaultvalue>600000</defaultvalue>
+          <key>prefSlideShowTime</key>
+          <type>4</type>
+          <ListItems>
+            <ListItem>
+              <title>1 Minute</title>
+              <id>60000</id>
+            </ListItem>
+            <ListItem>
+              <title>2 Minutes</title>
+              <id>120000</id>
+            </ListItem>
+            <ListItem>
+              <title>5 Minutes</title>
+              <id>300000</id>
+            </ListItem>
+            <ListItem>
+              <title>10 Minutes</title>
+              <id>600000</id>
+            </ListItem>
+            <ListItem>
+              <title>15 Minutes</title>
+              <id>900000</id>
+            </ListItem>
+            <ListItem>
+              <title>30 Minutes</title>
+              <id>1800000</id>
+            </ListItem>
+          </ListItems>
+        </Setting>
+      </Settings>
+      <Settings>
+        <Setting>
+          <category>Sleep Mode</category>
+          <title>Image Frame Display</title>
+          <summary>Show Image Frame While Sleep</summary>
+          <value>false</value>
+          <defaultvalue>false</defaultvalue>
+          <key>prefWakeUpSlideShow</key>
+          <type>3</type>
+          <ListItems />
+        </Setting>
+        <Setting>
+          <category>Sleep Mode</category>
+          <title>Ask for an authoritative password</title>
+          <summary>Ask for an authoritative password to get out of sleep mode.</summary>
+          <value>false</value>
+          <defaultvalue>false</defaultvalue>
+          <key>prefPasswordRequired</key>
+          <type>3</type>
+          <ListItems />
+        </Setting>
+        <Setting>
+          <category>Sleep Mode</category>
+          <title>Screen awake time</title>
+          <summary>How long screen awake while untouch</summary>
+          <value>1800000</value>
+          <defaultvalue>1800000</defaultvalue>
+          <key>prefWakeUpTime</key>
+          <type>4</type>
+          <ListItems>
+            <ListItem>
+              <title>1 Minute</title>
+              <id>60000</id>
+            </ListItem>
+            <ListItem>
+              <title>2 Minutes</title>
+              <id>120000</id>
+            </ListItem>
+            <ListItem>
+              <title>5 Minutes</title>
+              <id>300000</id>
+            </ListItem>
+            <ListItem>
+              <title>10 Minutes</title>
+              <id>600000</id>
+            </ListItem>
+            <ListItem>
+              <title>15 Minutes</title>
+              <id>900000</id>
+            </ListItem>
+            <ListItem>
+              <title>30 Minutes</title>
+              <id>1800000</id>
+            </ListItem>
+          </ListItems>
+        </Setting>
+      </Settings>
+    </SettingsHeader>
+    <SettingsHeader>
+      <title>Date and Time Settings</title>
+      <summary />
+      <id>12</id>
+    </SettingsHeader>
+    <SettingsHeader>
+      <title>Sound Settings</title>
+      <summary />
+      <id>13</id>
+      <Settings>
+        <Setting>
+          <category>Notification Sounds</category>
+          <title>Doorbell Ring Tone</title>
+          <summary>Doorbell Ring Tone</summary>
+          <value />
+          <defaultvalue />
+          <key>prefVisitorRing</key>
+          <type>1</type>
+          <ListItems />
+        </Setting>
+        <Setting>
+          <category>Notification Sounds</category>
+          <title>Building Entrance Ring Tone</title>
+          <summary>Building Entrance Ring Tone</summary>
+          <value />
+          <defaultvalue />
+          <key>prefDoorBellRing</key>
+          <type>1</type>
+          <ListItems />
+        </Setting>
+        <Setting>
+          <category>Notification Sounds</category>
+          <title>Theft Alarm Sound</title>
+          <summary>Theft Alarm Sound</summary>
+          <value />
+          <defaultvalue />
+          <key>prefTheftAlarmRing</key>
+          <type>1</type>
+          <ListItems />
+        </Setting>
+        <Setting>
+          <category>Notification Sounds</category>
+          <title>Fire Alarm Sound</title>
+          <summary>Fire Alarm Sound</summary>
+          <value />
+          <defaultvalue />
+          <key>prefFireAlarmRing</key>
+          <type>1</type>
+          <ListItems />
+        </Setting>
+        <Setting>
+          <category>Notification Sounds</category>
+          <title>Water Flood Alarm Sound</title>
+          <summary>Water Flood Alarm Sound</summary>
+          <value />
+          <defaultvalue />
+          <key>prefWaterAlarmRing</key>
+          <type>1</type>
+          <ListItems />
+        </Setting>
+        <Setting>
+          <category>Notification Sounds</category>
+          <title>Gas Alarm Sound</title>
+          <summary>Gas Alarm Sound</summary>
+          <value />
+          <defaultvalue />
+          <key>prefGasAlarmRing</key>
+          <type>1</type>
+          <ListItems />
+        </Setting>
+        <Setting>
+          <category>Notification Sounds</category>
+          <title>Earthquake Alarm Sound</title>
+          <summary>Earthquake Alarm Sound</summary>
+          <value />
+          <defaultvalue />
+          <key>prefEartquakeAlarmRing</key>
+          <type>1</type>
+          <ListItems />
+        </Setting>
+        <Setting>
+          <category>Notification Sounds</category>
+          <title>Emergency Call Alarm Sound</title>
+          <summary>Emergency Call Alarm Sound</summary>
+          <value />
+          <defaultvalue />
+          <key>prefEmergencyCallAlarmRing</key>
+          <type>1</type>
+          <ListItems />
+        </Setting>
+      </Settings>
+      <Settings>
+        <Setting>
+          <category>Volumes</category>
+          <title>Doorbell Ring Tone Volume</title>
+          <summary>Doorbell Ring Tone Volume</summary>
+          <value>100</value>
+          <defaultvalue>100</defaultvalue>
+          <key>prefVisitorRingVolume</key>
+          <type>2</type>
+          <ListItems />
+        </Setting>
+        <Setting>
+          <category>Volumes</category>
+          <title>Building Entrance Ring Tone Volume</title>
+          <summary>Building Entrance Ring Tone Volume</summary>
+          <value>100</value>
+          <defaultvalue>100</defaultvalue>
+          <key>prefSipIntercomRingVolume</key>
+          <type>2</type>
+          <ListItems />
+        </Setting>
+        <Setting>
+          <category>Volumes</category>
+          <title>System Volume</title>
+          <summary>System Volume</summary>
+          <value>6</value>
+          <defaultvalue>7</defaultvalue>
+          <key>prefMasterVolume</key>
+          <type>2</type>
+          <ListItems />
+        </Setting>
+        <Setting>
+          <category>Volumes</category>
+          <title>Theft Alarm Volume</title>
+          <summary>Theft Alarm Volume</summary>
+          <value>100</value>
+          <defaultvalue>100</defaultvalue>
+          <key>prefTheftAlarmVolume</key>
+          <type>2</type>
+          <ListItems />
+        </Setting>
+        <Setting>
+          <category>Volumes</category>
+          <title>Fire Alarm Sound Volume</title>
+          <summary>Fire Alarm Sound Volume</summary>
+          <value>100</value>
+          <defaultvalue>100</defaultvalue>
+          <key>prefFireAlarmVolume</key>
+          <type>2</type>
+          <ListItems />
+        </Setting>
+        <Setting>
+          <category>Volumes</category>
+          <title>Water Flood Alarm Volume</title>
+          <summary>Water Flood Alarm Volume</summary>
+          <value>100</value>
+          <defaultvalue>100</defaultvalue>
+          <key>prefWaterAlarmVolume</key>
+          <type>2</type>
+          <ListItems />
+        </Setting>
+        <Setting>
+          <category>Volumes</category>
+          <title>Gas Alarm Volume</title>
+          <summary>Gas Alarm Volume</summary>
+          <value>100</value>
+          <defaultvalue>100</defaultvalue>
+          <key>prefGasAlarmVolume</key>
+          <type>2</type>
+          <ListItems />
+        </Setting>
+        <Setting>
+          <category>Volumes</category>
+          <title>Earthquake Alarm Volume</title>
+          <summary>Earthquake Alarm Volume</summary>
+          <value>100</value>
+          <defaultvalue>100</defaultvalue>
+          <key>prefEarthQuakeAlarmVolume</key>
+          <type>2</type>
+          <ListItems />
+        </Setting>
+        <Setting>
+          <category>Volumes</category>
+          <title>Emergency Call Alarm Volume</title>
+          <summary>Emergency Call Alarm Volume</summary>
+          <value>100</value>
+          <defaultvalue>100</defaultvalue>
+          <key>prefEmergencyCallVolume</key>
+          <type>2</type>
+          <ListItems />
+        </Setting>
+      </Settings>
+    </SettingsHeader>
+    <SettingsHeader>
+      <title>RSS Settings</title>
+      <summary />
+      <id>33</id>
+      <Settings>
+        <Setting>
+          <category>RSS Resources</category>
+          <title>Feed 1</title>
+          <summary />
+          <value />
+          <defaultvalue />
+          <key>prefRss1</key>
+          <type>1</type>
+          <ListItems />
+        </Setting>
+        <Setting>
+          <category>RSS Resources</category>
+          <title>Feed 2</title>
+          <summary />
+          <value />
+          <defaultvalue />
+          <key>prefRss2</key>
+          <type>1</type>
+          <ListItems />
+        </Setting>
+        <Setting>
+          <category>RSS Resources</category>
+          <title>Feed 3</title>
+          <summary />
+          <value />
+          <defaultvalue />
+          <key>prefRss3</key>
+          <type>1</type>
+          <ListItems />
+        </Setting>
+        <Setting>
+          <category>RSS Resources</category>
+          <title>Feed 4</title>
+          <summary />
+          <value />
+          <defaultvalue />
+          <key>prefRss4</key>
+          <type>1</type>
+          <ListItems />
+        </Setting>
+        <Setting>
+          <category>RSS Resources</category>
+          <title>Feed 5</title>
+          <summary />
+          <value />
+          <defaultvalue />
+          <key>prefRss5</key>
+          <type>1</type>
+          <ListItems />
+        </Setting>
+      </Settings>
+    </SettingsHeader>
+    <SettingsHeader>
+      <title>IP Radio Settings</title>
+      <summary />
+      <id>40</id>
+      <Settings>
+        <Setting>
+          <category>Ip Radio Definitions</category>
+          <title>Number 1 IP Radio Name</title>
+          <summary>Number 1 IP Radio Name</summary>
+          <value />
+          <defaultvalue>@2131558775</defaultvalue>
+          <key>prefIpRadio1_Name</key>
+          <type>1</type>
+          <ListItems />
+        </Setting>
+        <Setting>
+          <category>Ip Radio Definitions</category>
+          <title>Number 1 IP Radio Address</title>
+          <summary>Number 1 IP Radio Address</summary>
+          <value />
+          <defaultvalue />
+          <key>prefIpRadio1_Url</key>
+          <type>1</type>
+          <ListItems />
+        </Setting>
+        <Setting>
+          <category>Ip Radio Definitions</category>
+          <title>Number 2 IP Radio Name</title>
+          <summary>Number 2 IP Radio Name</summary>
+          <value />
+          <defaultvalue>@2131558777</defaultvalue>
+          <key>prefIpRadio2_Name</key>
+          <type>1</type>
+          <ListItems />
+        </Setting>
+        <Setting>
+          <category>Ip Radio Definitions</category>
+          <title>Number 2 IP Radio Address</title>
+          <summary>Number 2 IP Radio Address</summary>
+          <value />
+          <defaultvalue />
+          <key>prefIpRadio2_Url</key>
+          <type>1</type>
+          <ListItems />
+        </Setting>
+        <Setting>
+          <category>Ip Radio Definitions</category>
+          <title>Number 3 IP Radio Name</title>
+          <summary>Number 3 IP Radio Name</summary>
+          <value />
+          <defaultvalue>@2131558778</defaultvalue>
+          <key>prefIpRadio3_Name</key>
+          <type>1</type>
+          <ListItems />
+        </Setting>
+        <Setting>
+          <category>Ip Radio Definitions</category>
+          <title>Number 3 IP Radio Address</title>
+          <summary>Number 3 IP Radio Address</summary>
+          <value />
+          <defaultvalue />
+          <key>prefIpRadio3_Url</key>
+          <type>1</type>
+          <ListItems />
+        </Setting>
+        <Setting>
+          <category>Ip Radio Definitions</category>
+          <title>Number 4 IP Radio Name</title>
+          <summary>Number 4 IP Radio Name</summary>
+          <value />
+          <defaultvalue>@2131558779</defaultvalue>
+          <key>prefIpRadio4_Name</key>
+          <type>1</type>
+          <ListItems />
+        </Setting>
+        <Setting>
+          <category>Ip Radio Definitions</category>
+          <title>Number 4 IP Radio Address</title>
+          <summary>Number 4 IP Radio Address</summary>
+          <value />
+          <defaultvalue />
+          <key>prefIpRadio4_Url</key>
+          <type>1</type>
+          <ListItems />
+        </Setting>
+        <Setting>
+          <category>Ip Radio Definitions</category>
+          <title>Number 5 IP Radio Name</title>
+          <summary>Number 5 IP Radio Name</summary>
+          <value />
+          <defaultvalue>@2131558780</defaultvalue>
+          <key>prefIpRadio5_Name</key>
+          <type>1</type>
+          <ListItems />
+        </Setting>
+        <Setting>
+          <category>Ip Radio Definitions</category>
+          <title>Number 5 IP Radio Address</title>
+          <summary>Number 5 IP Radio Address</summary>
+          <value />
+          <defaultvalue />
+          <key>prefIpRadio5_Url</key>
+          <type>1</type>
+          <ListItems />
+        </Setting>
+        <Setting>
+          <category>Ip Radio Definitions</category>
+          <title>Number 6 IP Radio Name</title>
+          <summary>Number 6 IP Radio Name</summary>
+          <value />
+          <defaultvalue>@2131558781</defaultvalue>
+          <key>prefIpRadio6_Name</key>
+          <type>1</type>
+          <ListItems />
+        </Setting>
+        <Setting>
+          <category>Ip Radio Definitions</category>
+          <title>Number 6 IP Radio Address</title>
+          <summary>Number 6 IP Radio Address</summary>
+          <value />
+          <defaultvalue />
+          <key>prefIpRadio6_Url</key>
+          <type>1</type>
+          <ListItems />
+        </Setting>
+        <Setting>
+          <category>Ip Radio Definitions</category>
+          <title>Number 7 IP Radio Name</title>
+          <summary>Number 7 IP Radio Name</summary>
+          <value />
+          <defaultvalue>@2131558782</defaultvalue>
+          <key>prefIpRadio7_Name</key>
+          <type>1</type>
+          <ListItems />
+        </Setting>
+        <Setting>
+          <category>Ip Radio Definitions</category>
+          <title>Number 7 IP Radio Address</title>
+          <summary>Number 7 IP Radio Address</summary>
+          <value />
+          <defaultvalue />
+          <key>prefIpRadio7_Url</key>
+          <type>1</type>
+          <ListItems />
+        </Setting>
+        <Setting>
+          <category>Ip Radio Definitions</category>
+          <title>Number 8 IP Radio Name</title>
+          <summary>Number 8 IP Radio Name</summary>
+          <value />
+          <defaultvalue>@2131558783</defaultvalue>
+          <key>prefIpRadio8_Name</key>
+          <type>1</type>
+          <ListItems />
+        </Setting>
+        <Setting>
+          <category>Ip Radio Definitions</category>
+          <title>Number 8 IP Radio Address</title>
+          <summary>Number 8 IP Radio Address</summary>
+          <value />
+          <defaultvalue />
+          <key>prefIpRadio8_Url</key>
+          <type>1</type>
+          <ListItems />
+        </Setting>
+        <Setting>
+          <category>Ip Radio Definitions</category>
+          <title>Number 9 IP Radio Name</title>
+          <summary>Number 9 IP Radio Name</summary>
+          <value />
+          <defaultvalue>@2131558784</defaultvalue>
+          <key>prefIpRadio9_Name</key>
+          <type>1</type>
+          <ListItems />
+        </Setting>
+        <Setting>
+          <category>Ip Radio Definitions</category>
+          <title>Number 9 IP Radio Address</title>
+          <summary>Number 9 IP Radio Address</summary>
+          <value />
+          <defaultvalue />
+          <key>prefIpRadio9_Url</key>
+          <type>1</type>
+          <ListItems />
+        </Setting>
+        <Setting>
+          <category>Ip Radio Definitions</category>
+          <title>Number 10 IP Radio Name</title>
+          <summary>Number 10 IP Radio Name</summary>
+          <value />
+          <defaultvalue>@2131558776</defaultvalue>
+          <key>prefIpRadio10_Name</key>
+          <type>1</type>
+          <ListItems />
+        </Setting>
+        <Setting>
+          <category>Ip Radio Definitions</category>
+          <title>Number 10 IP Radio Address</title>
+          <summary>Number 10 IP Radio Address</summary>
+          <value />
+          <defaultvalue />
+          <key>prefIpRadio10_Url</key>
+          <type>1</type>
+          <ListItems />
+        </Setting>
+      </Settings>
+    </SettingsHeader>
+    <SettingsHeader>
+      <title>Alarm System</title>
+      <summary />
+      <id>62</id>
+      <Settings>
+        <Setting>
+          <category>Alarm Operations</category>
+          <title>Alarm System Password</title>
+          <summary>Alarm System Password</summary>
+          <value>1111</value>
+          <defaultvalue>1111</defaultvalue>
+          <key>prefAlarmPassword</key>
+          <type>1</type>
+          <ListItems />
+        </Setting>
+        <Setting>
+          <category>Alarm Operations</category>
+          <title>Alarm System Starting Delay</title>
+          <summary>How long countdown working before starting alarm system?</summary>
+          <value>30</value>
+          <defaultvalue>30</defaultvalue>
+          <key>prefAlarmSystemStartingWait</key>
+          <type>4</type>
+          <ListItems>
+            <ListItem>
+              <title>15 Seconds</title>
+              <id>15</id>
+            </ListItem>
+            <ListItem>
+              <title>30 Seconds</title>
+              <id>30</id>
+            </ListItem>
+            <ListItem>
+              <title>45 Seconds</title>
+              <id>45</id>
+            </ListItem>
+            <ListItem>
+              <title>1 Minute</title>
+              <id>60</id>
+            </ListItem>
+            <ListItem>
+              <title>2 Minutes</title>
+              <id>120</id>
+            </ListItem>
+            <ListItem>
+              <title>5 Minutes</title>
+              <id>300</id>
+            </ListItem>
+            <ListItem>
+              <title>10 Minutes</title>
+              <id>600</id>
+            </ListItem>
+          </ListItems>
+        </Setting>
+        <Setting>
+          <category>Alarm Operations</category>
+          <title>Password waiting time when</title>
+          <summary>How long the system wait for alarm password when door or windows opened?</summary>
+          <value>30</value>
+          <defaultvalue>30</defaultvalue>
+          <key>prefAlarmSystemAlertWait</key>
+          <type>4</type>
+          <ListItems>
+            <ListItem>
+              <title>15 Seconds</title>
+              <id>15</id>
+            </ListItem>
+            <ListItem>
+              <title>30 Seconds</title>
+              <id>30</id>
+            </ListItem>
+            <ListItem>
+              <title>45 Seconds</title>
+              <id>45</id>
+            </ListItem>
+            <ListItem>
+              <title>1 Minute</title>
+              <id>60</id>
+            </ListItem>
+            <ListItem>
+              <title>2 Minutes</title>
+              <id>120</id>
+            </ListItem>
+            <ListItem>
+              <title>5 Minutes</title>
+              <id>300</id>
+            </ListItem>
+            <ListItem>
+              <title>10 Minutes</title>
+              <id>600</id>
+            </ListItem>
+          </ListItems>
+        </Setting>
+        <Setting>
+          <category>Alarm Operations</category>
+          <title>The Number of Wrong Password Entry</title>
+          <summary>How many times you can try after enter alarm system password wrong?</summary>
+          <value>3</value>
+          <defaultvalue>3</defaultvalue>
+          <key>prefAlarmSystemWrongPassword</key>
+          <type>4</type>
+          <ListItems>
+            <ListItem>
+              <title>3</title>
+              <id>3</id>
+            </ListItem>
+            <ListItem>
+              <title>4</title>
+              <id>4</id>
+            </ListItem>
+            <ListItem>
+              <title>5</title>
+              <id>5</id>
+            </ListItem>
+            <ListItem>
+              <title>6</title>
+              <id>6</id>
+            </ListItem>
+            <ListItem>
+              <title>7</title>
+              <id>7</id>
+            </ListItem>
+            <ListItem>
+              <title>8</title>
+              <id>8</id>
+            </ListItem>
+            <ListItem>
+              <title>9</title>
+              <id>9</id>
+            </ListItem>
+            <ListItem>
+              <title>10</title>
+              <id>10</id>
+            </ListItem>
+          </ListItems>
+        </Setting>
+      </Settings>
+    </SettingsHeader>
+    <SettingsHeader>
+      <title>Traffic Information System</title>
+      <summary />
+      <id>68</id>
+      <Settings>
+        <Setting>
+          <category>Location Information</category>
+          <title>Latitude</title>
+          <summary>Latitude Information for your Location</summary>
+          <value>41.00527</value>
+          <defaultvalue>41.00527</defaultvalue>
+          <key>prefLocationLat</key>
+          <type>1</type>
+          <ListItems />
+        </Setting>
+        <Setting>
+          <category>Location Information</category>
+          <title>Longitude</title>
+          <summary>Longitude Information for your Location</summary>
+          <value>28.97696</value>
+          <defaultvalue>28.97696</defaultvalue>
+          <key>prefLocationLong</key>
+          <type>1</type>
+          <ListItems />
+        </Setting>
+      </Settings>
+    </SettingsHeader>
+    <SettingsHeader>
+      <title>Remote Access</title>
+      <summary />
+      <id>72</id>
+      <Settings>
+        <Setting>
+          <category>Mobile Access</category>
+          <title>Allow Mobile Access?</title>
+          <summary>Allow SmartPhone or Tablet Access?</summary>
+          <value>true</value>
+          <defaultvalue>true</defaultvalue>
+          <key>pref_Remote_Control_MobileControlEnable</key>
+          <type>3</type>
+          <ListItems />
+        </Setting>
+      </Settings>
+    </SettingsHeader>
+    <SettingsHeader>
+      <title>Support Services</title>
+      <summary />
+      <id>75</id>
+    </SettingsHeader>
+    <SettingsHeader>
+      <title>About Device</title>
+      <summary />
+      <id>76</id>
+      <Settings>
+        <Setting>
+          <category>Update Procedures</category>
+          <title>Automatic Update</title>
+          <summary>Do you want to automatically update?</summary>
+          <value>true</value>
+          <defaultvalue>true</defaultvalue>
+          <key>prefAppUpdateAuto</key>
+          <type>3</type>
+          <ListItems />
+        </Setting>
+      </Settings>
+    </SettingsHeader>
+    <SettingsHeader>
+      <title>Security Settings</title>
+      <summary />
+      <id>79</id>
+      <Settings>
+        <Setting>
+          <category>Password Operations</category>
+          <title>SPAD Administrator Password</title>
+          <summary>SPAD Administrator Password</summary>
+          <value>6431</value>
+          <defaultvalue>6431</defaultvalue>
+          <key>prefAdminPassword</key>
+          <type>1</type>
+          <ListItems />
+        </Setting>
+        <Setting>
+          <category>Password Operations</category>
+          <title>SPAD User Settings Password</title>
+          <summary>SPAD User Settings Password</summary>
+          <value>1111</value>
+          <defaultvalue>1111</defaultvalue>
+          <key>prefSettingsPassword</key>
+          <type>1</type>
+          <ListItems />
+        </Setting>
+      </Settings>
+      <Settings>
+        <Setting>
+          <category>Security System</category>
+          <title>Input 0</title>
+          <summary>Sensor which Connected Input 0</summary>
+          <value>0</value>
+          <defaultvalue>0</defaultvalue>
+          <key>prefGPIO_Input0</key>
+          <type>4</type>
+          <ListItems>
+            <ListItem>
+              <title>None of them</title>
+              <id>0</id>
+            </ListItem>
+            <ListItem>
+              <title>Door/Window Detector</title>
+              <id>1</id>
+            </ListItem>
+            <ListItem>
+              <title>Emergency Button is Pressed</title>
+              <id>2</id>
+            </ListItem>
+            <ListItem>
+              <title>Earthquake Detector</title>
+              <id>3</id>
+            </ListItem>
+            <ListItem>
+              <title>Waterflood Detector</title>
+              <id>4</id>
+            </ListItem>
+            <ListItem>
+              <title>Fire Detector</title>
+              <id>5</id>
+            </ListItem>
+            <ListItem>
+              <title>Gas Detector</title>
+              <id>6</id>
+            </ListItem>
+            <ListItem>
+              <title>Doorbell</title>
+              <id>7</id>
+            </ListItem>
+            <ListItem>
+              <title>Motion Sensor</title>
+              <id>9</id>
+            </ListItem>
+          </ListItems>
+        </Setting>
+        <Setting>
+          <category>Security System</category>
+          <title>Input 0 Trigger Type</title>
+          <summary>Input 0 Trigger Type</summary>
+          <value>0</value>
+          <defaultvalue>0</defaultvalue>
+          <key>prefGPIO_Input0_ChangeType</key>
+          <type>4</type>
+          <ListItems>
+            <ListItem>
+              <title>0-&gt;1</title>
+              <id>0</id>
+            </ListItem>
+            <ListItem>
+              <title>1-&gt;0</title>
+              <id>1</id>
+            </ListItem>
+          </ListItems>
+        </Setting>
+        <Setting>
+          <category>Security System</category>
+          <title>Input 0 Delay Time</title>
+          <summary>Input 0 Delay Time (sec)</summary>
+          <value>0</value>
+          <defaultvalue>0</defaultvalue>
+          <key>prefGPIO_Input0_delay</key>
+          <type>1</type>
+          <ListItems />
+        </Setting>
+        <Setting>
+          <category>Security System</category>
+          <title>Input 1</title>
+          <summary>Sensor which Connected Input 1</summary>
+          <value>0</value>
+          <defaultvalue>0</defaultvalue>
+          <key>prefGPIO_Input1</key>
+          <type>4</type>
+          <ListItems>
+            <ListItem>
+              <title>None of them</title>
+              <id>0</id>
+            </ListItem>
+            <ListItem>
+              <title>Door/Window Detector</title>
+              <id>1</id>
+            </ListItem>
+            <ListItem>
+              <title>Emergency Button is Pressed</title>
+              <id>2</id>
+            </ListItem>
+            <ListItem>
+              <title>Earthquake Detector</title>
+              <id>3</id>
+            </ListItem>
+            <ListItem>
+              <title>Waterflood Detector</title>
+              <id>4</id>
+            </ListItem>
+            <ListItem>
+              <title>Fire Detector</title>
+              <id>5</id>
+            </ListItem>
+            <ListItem>
+              <title>Gas Detector</title>
+              <id>6</id>
+            </ListItem>
+            <ListItem>
+              <title>Doorbell</title>
+              <id>7</id>
+            </ListItem>
+            <ListItem>
+              <title>Motion Sensor</title>
+              <id>9</id>
+            </ListItem>
+          </ListItems>
+        </Setting>
+        <Setting>
+          <category>Security System</category>
+          <title>Input 1 Trigger Type</title>
+          <summary>Input 1 Trigger Type</summary>
+          <value>0</value>
+          <defaultvalue>0</defaultvalue>
+          <key>prefGPIO_Input1_ChangeType</key>
+          <type>4</type>
+          <ListItems>
+            <ListItem>
+              <title>0-&gt;1</title>
+              <id>0</id>
+            </ListItem>
+            <ListItem>
+              <title>1-&gt;0</title>
+              <id>1</id>
+            </ListItem>
+          </ListItems>
+        </Setting>
+        <Setting>
+          <category>Security System</category>
+          <title>Input 1 Delay Time</title>
+          <summary>Input 1 Delay Time (sec)</summary>
+          <value>0</value>
+          <defaultvalue>0</defaultvalue>
+          <key>prefGPIO_Input1_delay</key>
+          <type>1</type>
+          <ListItems />
+        </Setting>
+        <Setting>
+          <category>Security System</category>
+          <title>Input 2</title>
+          <summary>Sensor which Connected Input 2</summary>
+          <value>0</value>
+          <defaultvalue>0</defaultvalue>
+          <key>prefGPIO_Input2</key>
+          <type>4</type>
+          <ListItems>
+            <ListItem>
+              <title>None of them</title>
+              <id>0</id>
+            </ListItem>
+            <ListItem>
+              <title>Door/Window Detector</title>
+              <id>1</id>
+            </ListItem>
+            <ListItem>
+              <title>Emergency Button is Pressed</title>
+              <id>2</id>
+            </ListItem>
+            <ListItem>
+              <title>Earthquake Detector</title>
+              <id>3</id>
+            </ListItem>
+            <ListItem>
+              <title>Waterflood Detector</title>
+              <id>4</id>
+            </ListItem>
+            <ListItem>
+              <title>Fire Detector</title>
+              <id>5</id>
+            </ListItem>
+            <ListItem>
+              <title>Gas Detector</title>
+              <id>6</id>
+            </ListItem>
+            <ListItem>
+              <title>Doorbell</title>
+              <id>7</id>
+            </ListItem>
+            <ListItem>
+              <title>Motion Sensor</title>
+              <id>9</id>
+            </ListItem>
+          </ListItems>
+        </Setting>
+        <Setting>
+          <category>Security System</category>
+          <title>Input 2 Trigger Type</title>
+          <summary>Input 2 Trigger Type</summary>
+          <value>0</value>
+          <defaultvalue>0</defaultvalue>
+          <key>prefGPIO_Input2_ChangeType</key>
+          <type>4</type>
+          <ListItems>
+            <ListItem>
+              <title>0-&gt;1</title>
+              <id>0</id>
+            </ListItem>
+            <ListItem>
+              <title>1-&gt;0</title>
+              <id>1</id>
+            </ListItem>
+          </ListItems>
+        </Setting>
+        <Setting>
+          <category>Security System</category>
+          <title>Input 2 Delay Time</title>
+          <summary>Input 2 Delay Time (sec)</summary>
+          <value>0</value>
+          <defaultvalue>0</defaultvalue>
+          <key>prefGPIO_Input2_delay</key>
+          <type>1</type>
+          <ListItems />
+        </Setting>
+        <Setting>
+          <category>Security System</category>
+          <title>Input 3</title>
+          <summary>Sensor which Connected Input 3</summary>
+          <value>0</value>
+          <defaultvalue>0</defaultvalue>
+          <key>prefGPIO_Input3</key>
+          <type>4</type>
+          <ListItems>
+            <ListItem>
+              <title>None of them</title>
+              <id>0</id>
+            </ListItem>
+            <ListItem>
+              <title>Door/Window Detector</title>
+              <id>1</id>
+            </ListItem>
+            <ListItem>
+              <title>Emergency Button is Pressed</title>
+              <id>2</id>
+            </ListItem>
+            <ListItem>
+              <title>Earthquake Detector</title>
+              <id>3</id>
+            </ListItem>
+            <ListItem>
+              <title>Waterflood Detector</title>
+              <id>4</id>
+            </ListItem>
+            <ListItem>
+              <title>Fire Detector</title>
+              <id>5</id>
+            </ListItem>
+            <ListItem>
+              <title>Gas Detector</title>
+              <id>6</id>
+            </ListItem>
+            <ListItem>
+              <title>Doorbell</title>
+              <id>7</id>
+            </ListItem>
+            <ListItem>
+              <title>Motion Sensor</title>
+              <id>9</id>
+            </ListItem>
+          </ListItems>
+        </Setting>
+        <Setting>
+          <category>Security System</category>
+          <title>Input 3 Trigger Type</title>
+          <summary>Input 3 Trigger Type</summary>
+          <value>0</value>
+          <defaultvalue>0</defaultvalue>
+          <key>prefGPIO_Input3_ChangeType</key>
+          <type>4</type>
+          <ListItems>
+            <ListItem>
+              <title>0-&gt;1</title>
+              <id>0</id>
+            </ListItem>
+            <ListItem>
+              <title>1-&gt;0</title>
+              <id>1</id>
+            </ListItem>
+          </ListItems>
+        </Setting>
+        <Setting>
+          <category>Security System</category>
+          <title>Input 3 Delay Time</title>
+          <summary>Input 3 Delay Time (sec)</summary>
+          <value>0</value>
+          <defaultvalue>0</defaultvalue>
+          <key>prefGPIO_Input3_delay</key>
+          <type>1</type>
+          <ListItems />
+        </Setting>
+        <Setting>
+          <category>Security System</category>
+          <title>Input 4</title>
+          <summary>Sensor which Connected Input 4</summary>
+          <value>0</value>
+          <defaultvalue>0</defaultvalue>
+          <key>prefGPIO_Input4</key>
+          <type>4</type>
+          <ListItems>
+            <ListItem>
+              <title>None of them</title>
+              <id>0</id>
+            </ListItem>
+            <ListItem>
+              <title>Door/Window Detector</title>
+              <id>1</id>
+            </ListItem>
+            <ListItem>
+              <title>Emergency Button is Pressed</title>
+              <id>2</id>
+            </ListItem>
+            <ListItem>
+              <title>Earthquake Detector</title>
+              <id>3</id>
+            </ListItem>
+            <ListItem>
+              <title>Waterflood Detector</title>
+              <id>4</id>
+            </ListItem>
+            <ListItem>
+              <title>Fire Detector</title>
+              <id>5</id>
+            </ListItem>
+            <ListItem>
+              <title>Gas Detector</title>
+              <id>6</id>
+            </ListItem>
+            <ListItem>
+              <title>Doorbell</title>
+              <id>7</id>
+            </ListItem>
+            <ListItem>
+              <title>Motion Sensor</title>
+              <id>9</id>
+            </ListItem>
+          </ListItems>
+        </Setting>
+        <Setting>
+          <category>Security System</category>
+          <title>Input 4 Trigger Type</title>
+          <summary>Input 4 Trigger Type</summary>
+          <value>0</value>
+          <defaultvalue>0</defaultvalue>
+          <key>prefGPIO_Input4_ChangeType</key>
+          <type>4</type>
+          <ListItems>
+            <ListItem>
+              <title>0-&gt;1</title>
+              <id>0</id>
+            </ListItem>
+            <ListItem>
+              <title>1-&gt;0</title>
+              <id>1</id>
+            </ListItem>
+          </ListItems>
+        </Setting>
+        <Setting>
+          <category>Security System</category>
+          <title>Input 4 Delay Time</title>
+          <summary>Input 4 Delay Time (sec)</summary>
+          <value>0</value>
+          <defaultvalue>0</defaultvalue>
+          <key>prefGPIO_Input4_delay</key>
+          <type>1</type>
+          <ListItems />
+        </Setting>
+        <Setting>
+          <category>Security System</category>
+          <title>Input 5</title>
+          <summary>Sensor which Connected Input 5</summary>
+          <value>0</value>
+          <defaultvalue>0</defaultvalue>
+          <key>prefGPIO_Input5</key>
+          <type>4</type>
+          <ListItems>
+            <ListItem>
+              <title>None of them</title>
+              <id>0</id>
+            </ListItem>
+            <ListItem>
+              <title>Door/Window Detector</title>
+              <id>1</id>
+            </ListItem>
+            <ListItem>
+              <title>Emergency Button is Pressed</title>
+              <id>2</id>
+            </ListItem>
+            <ListItem>
+              <title>Earthquake Detector</title>
+              <id>3</id>
+            </ListItem>
+            <ListItem>
+              <title>Waterflood Detector</title>
+              <id>4</id>
+            </ListItem>
+            <ListItem>
+              <title>Fire Detector</title>
+              <id>5</id>
+            </ListItem>
+            <ListItem>
+              <title>Gas Detector</title>
+              <id>6</id>
+            </ListItem>
+            <ListItem>
+              <title>Doorbell</title>
+              <id>7</id>
+            </ListItem>
+            <ListItem>
+              <title>Motion Sensor</title>
+              <id>9</id>
+            </ListItem>
+          </ListItems>
+        </Setting>
+        <Setting>
+          <category>Security System</category>
+          <title>Input 5 Trigger Type</title>
+          <summary>Input 5 Trigger Type</summary>
+          <value>0</value>
+          <defaultvalue>0</defaultvalue>
+          <key>prefGPIO_Input5_ChangeType</key>
+          <type>4</type>
+          <ListItems>
+            <ListItem>
+              <title>0-&gt;1</title>
+              <id>0</id>
+            </ListItem>
+            <ListItem>
+              <title>1-&gt;0</title>
+              <id>1</id>
+            </ListItem>
+          </ListItems>
+        </Setting>
+        <Setting>
+          <category>Security System</category>
+          <title>Input 5 Delay Time</title>
+          <summary>Input 5 Delay Time (sec)</summary>
+          <value>0</value>
+          <defaultvalue>0</defaultvalue>
+          <key>prefGPIO_Input5_delay</key>
+          <type>1</type>
+          <ListItems />
+        </Setting>
+        <Setting>
+          <category>Security System</category>
+          <title>Input 6</title>
+          <summary>Sensor which Connected Input 6</summary>
+          <value>0</value>
+          <defaultvalue>0</defaultvalue>
+          <key>prefGPIO_Input6</key>
+          <type>4</type>
+          <ListItems>
+            <ListItem>
+              <title>None of them</title>
+              <id>0</id>
+            </ListItem>
+            <ListItem>
+              <title>Door/Window Detector</title>
+              <id>1</id>
+            </ListItem>
+            <ListItem>
+              <title>Emergency Button is Pressed</title>
+              <id>2</id>
+            </ListItem>
+            <ListItem>
+              <title>Earthquake Detector</title>
+              <id>3</id>
+            </ListItem>
+            <ListItem>
+              <title>Waterflood Detector</title>
+              <id>4</id>
+            </ListItem>
+            <ListItem>
+              <title>Fire Detector</title>
+              <id>5</id>
+            </ListItem>
+            <ListItem>
+              <title>Gas Detector</title>
+              <id>6</id>
+            </ListItem>
+            <ListItem>
+              <title>Doorbell</title>
+              <id>7</id>
+            </ListItem>
+            <ListItem>
+              <title>Motion Sensor</title>
+              <id>9</id>
+            </ListItem>
+          </ListItems>
+        </Setting>
+        <Setting>
+          <category>Security System</category>
+          <title>Input 6 Trigger Type</title>
+          <summary>Input 6 Trigger Type</summary>
+          <value>0</value>
+          <defaultvalue>0</defaultvalue>
+          <key>prefGPIO_Input6_ChangeType</key>
+          <type>4</type>
+          <ListItems>
+            <ListItem>
+              <title>0-&gt;1</title>
+              <id>0</id>
+            </ListItem>
+            <ListItem>
+              <title>1-&gt;0</title>
+              <id>1</id>
+            </ListItem>
+          </ListItems>
+        </Setting>
+        <Setting>
+          <category>Security System</category>
+          <title>Input 6 Delay Time</title>
+          <summary>Input 6 Delay Time (sec)</summary>
+          <value>0</value>
+          <defaultvalue>0</defaultvalue>
+          <key>prefGPIO_Input6_delay</key>
+          <type>1</type>
+          <ListItems />
+        </Setting>
+        <Setting>
+          <category>Security System</category>
+          <title>Input 7</title>
+          <summary>Sensor which Connected Input 7</summary>
+          <value>0</value>
+          <defaultvalue>0</defaultvalue>
+          <key>prefGPIO_Input7</key>
+          <type>4</type>
+          <ListItems>
+            <ListItem>
+              <title>None of them</title>
+              <id>0</id>
+            </ListItem>
+            <ListItem>
+              <title>Door/Window Detector</title>
+              <id>1</id>
+            </ListItem>
+            <ListItem>
+              <title>Emergency Button is Pressed</title>
+              <id>2</id>
+            </ListItem>
+            <ListItem>
+              <title>Earthquake Detector</title>
+              <id>3</id>
+            </ListItem>
+            <ListItem>
+              <title>Waterflood Detector</title>
+              <id>4</id>
+            </ListItem>
+            <ListItem>
+              <title>Fire Detector</title>
+              <id>5</id>
+            </ListItem>
+            <ListItem>
+              <title>Gas Detector</title>
+              <id>6</id>
+            </ListItem>
+            <ListItem>
+              <title>Doorbell</title>
+              <id>7</id>
+            </ListItem>
+            <ListItem>
+              <title>Motion Sensor</title>
+              <id>9</id>
+            </ListItem>
+          </ListItems>
+        </Setting>
+        <Setting>
+          <category>Security System</category>
+          <title>Input 7 Trigger Type</title>
+          <summary>Input 7 Trigger Type</summary>
+          <value>0</value>
+          <defaultvalue>0</defaultvalue>
+          <key>prefGPIO_Input7_ChangeType</key>
+          <type>4</type>
+          <ListItems>
+            <ListItem>
+              <title>0-&gt;1</title>
+              <id>0</id>
+            </ListItem>
+            <ListItem>
+              <title>1-&gt;0</title>
+              <id>1</id>
+            </ListItem>
+          </ListItems>
+        </Setting>
+        <Setting>
+          <category>Security System</category>
+          <title>Input 7 Delay Time</title>
+          <summary>Input 7 Delay Time (sec)</summary>
+          <value>0</value>
+          <defaultvalue>0</defaultvalue>
+          <key>prefGPIO_Input7_delay</key>
+          <type>1</type>
+          <ListItems />
+        </Setting>
+        <Setting>
+          <category>Security System</category>
+          <title>Input 8</title>
+          <summary>Sensor which Connected Input 8</summary>
+          <value>0</value>
+          <defaultvalue>0</defaultvalue>
+          <key>prefGPIO_Input8</key>
+          <type>4</type>
+          <ListItems>
+            <ListItem>
+              <title>None of them</title>
+              <id>0</id>
+            </ListItem>
+            <ListItem>
+              <title>Door/Window Detector</title>
+              <id>1</id>
+            </ListItem>
+            <ListItem>
+              <title>Emergency Button is Pressed</title>
+              <id>2</id>
+            </ListItem>
+            <ListItem>
+              <title>Earthquake Detector</title>
+              <id>3</id>
+            </ListItem>
+            <ListItem>
+              <title>Waterflood Detector</title>
+              <id>4</id>
+            </ListItem>
+            <ListItem>
+              <title>Fire Detector</title>
+              <id>5</id>
+            </ListItem>
+            <ListItem>
+              <title>Gas Detector</title>
+              <id>6</id>
+            </ListItem>
+            <ListItem>
+              <title>Doorbell</title>
+              <id>7</id>
+            </ListItem>
+            <ListItem>
+              <title>Motion Sensor</title>
+              <id>9</id>
+            </ListItem>
+          </ListItems>
+        </Setting>
+        <Setting>
+          <category>Security System</category>
+          <title>Input 8 Trigger Type</title>
+          <summary>Input 8 Trigger Type</summary>
+          <value>0</value>
+          <defaultvalue>0</defaultvalue>
+          <key>prefGPIO_Input8_ChangeType</key>
+          <type>4</type>
+          <ListItems>
+            <ListItem>
+              <title>0-&gt;1</title>
+              <id>0</id>
+            </ListItem>
+            <ListItem>
+              <title>1-&gt;0</title>
+              <id>1</id>
+            </ListItem>
+          </ListItems>
+        </Setting>
+        <Setting>
+          <category>Security System</category>
+          <title>Input 8 Delay Time</title>
+          <summary>Input 8 Delay Time (sec)</summary>
+          <value>0</value>
+          <defaultvalue>0</defaultvalue>
+          <key>prefGPIO_Input8_delay</key>
+          <type>1</type>
+          <ListItems />
+        </Setting>
+        <Setting>
+          <category>Security System</category>
+          <title>Input 9</title>
+          <summary>Sensor which Connected Input 9</summary>
+          <value>0</value>
+          <defaultvalue>0</defaultvalue>
+          <key>prefGPIO_Input9</key>
+          <type>4</type>
+          <ListItems>
+            <ListItem>
+              <title>None of them</title>
+              <id>0</id>
+            </ListItem>
+            <ListItem>
+              <title>Door/Window Detector</title>
+              <id>1</id>
+            </ListItem>
+            <ListItem>
+              <title>Emergency Button is Pressed</title>
+              <id>2</id>
+            </ListItem>
+            <ListItem>
+              <title>Earthquake Detector</title>
+              <id>3</id>
+            </ListItem>
+            <ListItem>
+              <title>Waterflood Detector</title>
+              <id>4</id>
+            </ListItem>
+            <ListItem>
+              <title>Fire Detector</title>
+              <id>5</id>
+            </ListItem>
+            <ListItem>
+              <title>Gas Detector</title>
+              <id>6</id>
+            </ListItem>
+            <ListItem>
+              <title>Doorbell</title>
+              <id>7</id>
+            </ListItem>
+            <ListItem>
+              <title>Motion Sensor</title>
+              <id>9</id>
+            </ListItem>
+          </ListItems>
+        </Setting>
+        <Setting>
+          <category>Security System</category>
+          <title>Input 9 Trigger Type</title>
+          <summary>Input 9 Trigger Type</summary>
+          <value>0</value>
+          <defaultvalue>0</defaultvalue>
+          <key>prefGPIO_Input9_ChangeType</key>
+          <type>4</type>
+          <ListItems>
+            <ListItem>
+              <title>0-&gt;1</title>
+              <id>0</id>
+            </ListItem>
+            <ListItem>
+              <title>1-&gt;0</title>
+              <id>1</id>
+            </ListItem>
+          </ListItems>
+        </Setting>
+        <Setting>
+          <category>Security System</category>
+          <title>Input 9 Delay Time</title>
+          <summary>Input 9 Delay Time (sec)</summary>
+          <value>0</value>
+          <defaultvalue>0</defaultvalue>
+          <key>prefGPIO_Input9_delay</key>
+          <type>1</type>
+          <ListItems />
+        </Setting>
+        <Setting>
+          <category>Security System</category>
+          <title>Input 10</title>
+          <summary>Sensor which Connected Input 10</summary>
+          <value>0</value>
+          <defaultvalue>0</defaultvalue>
+          <key>prefGPIO_Input10</key>
+          <type>4</type>
+          <ListItems>
+            <ListItem>
+              <title>None of them</title>
+              <id>0</id>
+            </ListItem>
+            <ListItem>
+              <title>Door/Window Detector</title>
+              <id>1</id>
+            </ListItem>
+            <ListItem>
+              <title>Emergency Button is Pressed</title>
+              <id>2</id>
+            </ListItem>
+            <ListItem>
+              <title>Earthquake Detector</title>
+              <id>3</id>
+            </ListItem>
+            <ListItem>
+              <title>Waterflood Detector</title>
+              <id>4</id>
+            </ListItem>
+            <ListItem>
+              <title>Fire Detector</title>
+              <id>5</id>
+            </ListItem>
+            <ListItem>
+              <title>Gas Detector</title>
+              <id>6</id>
+            </ListItem>
+            <ListItem>
+              <title>Doorbell</title>
+              <id>7</id>
+            </ListItem>
+            <ListItem>
+              <title>Motion Sensor</title>
+              <id>9</id>
+            </ListItem>
+          </ListItems>
+        </Setting>
+        <Setting>
+          <category>Security System</category>
+          <title>Input 10 Trigger Type</title>
+          <summary>Input 10 Trigger Type</summary>
+          <value>0</value>
+          <defaultvalue>0</defaultvalue>
+          <key>prefGPIO_Input10_ChangeType</key>
+          <type>4</type>
+          <ListItems>
+            <ListItem>
+              <title>0-&gt;1</title>
+              <id>0</id>
+            </ListItem>
+            <ListItem>
+              <title>1-&gt;0</title>
+              <id>1</id>
+            </ListItem>
+          </ListItems>
+        </Setting>
+        <Setting>
+          <category>Security System</category>
+          <title>Input 10 Delay Time</title>
+          <summary>Input 10 Delay Time (sec)</summary>
+          <value>0</value>
+          <defaultvalue>0</defaultvalue>
+          <key>prefGPIO_Input10_delay</key>
+          <type>1</type>
+          <ListItems />
+        </Setting>
+        <Setting>
+          <category>Security System</category>
+          <title>Input 11</title>
+          <summary>Sensor which Connected Input 11</summary>
+          <value>0</value>
+          <defaultvalue>0</defaultvalue>
+          <key>prefGPIO_Input11</key>
+          <type>4</type>
+          <ListItems>
+            <ListItem>
+              <title>None of them</title>
+              <id>0</id>
+            </ListItem>
+            <ListItem>
+              <title>Door/Window Detector</title>
+              <id>1</id>
+            </ListItem>
+            <ListItem>
+              <title>Emergency Button is Pressed</title>
+              <id>2</id>
+            </ListItem>
+            <ListItem>
+              <title>Earthquake Detector</title>
+              <id>3</id>
+            </ListItem>
+            <ListItem>
+              <title>Waterflood Detector</title>
+              <id>4</id>
+            </ListItem>
+            <ListItem>
+              <title>Fire Detector</title>
+              <id>5</id>
+            </ListItem>
+            <ListItem>
+              <title>Gas Detector</title>
+              <id>6</id>
+            </ListItem>
+            <ListItem>
+              <title>Doorbell</title>
+              <id>7</id>
+            </ListItem>
+            <ListItem>
+              <title>Motion Sensor</title>
+              <id>9</id>
+            </ListItem>
+          </ListItems>
+        </Setting>
+        <Setting>
+          <category>Security System</category>
+          <title>Input 11 Trigger Type</title>
+          <summary>Input 11 Trigger Type</summary>
+          <value>0</value>
+          <defaultvalue>0</defaultvalue>
+          <key>prefGPIO_Input11_ChangeType</key>
+          <type>4</type>
+          <ListItems>
+            <ListItem>
+              <title>0-&gt;1</title>
+              <id>0</id>
+            </ListItem>
+            <ListItem>
+              <title>1-&gt;0</title>
+              <id>1</id>
+            </ListItem>
+          </ListItems>
+        </Setting>
+        <Setting>
+          <category>Security System</category>
+          <title>Input 11 Delay Time</title>
+          <summary>Input 11 Delay Time (sec)</summary>
+          <value>0</value>
+          <defaultvalue>0</defaultvalue>
+          <key>prefGPIO_Input11_delay</key>
+          <type>1</type>
+          <ListItems />
+        </Setting>
+        <Setting>
+          <category>Security System</category>
+          <title>Name for Output 1</title>
+          <summary>Name for Output 1</summary>
+          <value>Output 1</value>
+          <defaultvalue>Output 1</defaultvalue>
+          <key>prefGPIO_Output0_Name</key>
+          <type>1</type>
+          <ListItems />
+        </Setting>
+        <Setting>
+          <category>Security System</category>
+          <title>Name for Output 2</title>
+          <summary>Name for Output 2</summary>
+          <value>Output 2</value>
+          <defaultvalue>Output 2</defaultvalue>
+          <key>prefGPIO_Output1_Name</key>
+          <type>1</type>
+          <ListItems />
+        </Setting>
+        <Setting>
+          <category>Security System</category>
+          <title>Name for Output 3</title>
+          <summary>Name for Output 3</summary>
+          <value>Output 3</value>
+          <defaultvalue>Output 3</defaultvalue>
+          <key>prefGPIO_Output2_Name</key>
+          <type>1</type>
+          <ListItems />
+        </Setting>
+        <Setting>
+          <category>Security System</category>
+          <title>Name for Output 4</title>
+          <summary>Name for Output 4</summary>
+          <value>Output 4</value>
+          <defaultvalue>Output 4</defaultvalue>
+          <key>prefGPIO_Output3_Name</key>
+          <type>1</type>
+          <ListItems />
+        </Setting>
+        <Setting>
+          <category>Security System</category>
+          <title>Doorbell Camera Address</title>
+          <summary>Camera address that will shown when doorbell ringing</summary>
+          <value />
+          <defaultvalue />
+          <key>prefDoorBellVideo</key>
+          <type>1</type>
+          <ListItems />
+        </Setting>
+        <Setting>
+          <category>Security System</category>
+          <title>Door opening output control</title>
+          <summary>Output control that will used by open door when doorbell ringing</summary>
+          <value>0</value>
+          <defaultvalue>0</defaultvalue>
+          <key>prefDoorBellVideo_Output</key>
+          <type>4</type>
+          <ListItems>
+            <ListItem>
+              <title>Nope</title>
+              <id>0</id>
+            </ListItem>
+            <ListItem>
+              <title>Output 1</title>
+              <id>1</id>
+            </ListItem>
+            <ListItem>
+              <title>Output 2</title>
+              <id>2</id>
+            </ListItem>
+            <ListItem>
+              <title>Output 3</title>
+              <id>3</id>
+            </ListItem>
+            <ListItem>
+              <title>Output 4</title>
+              <id>4</id>
+            </ListItem>
+          </ListItems>
+        </Setting>
+      </Settings>
+    </SettingsHeader>
+    <SettingsHeader>
+      <title>System Display Settings</title>
+      <summary />
+      <id>126</id>
+      <Settings>
+        <Setting>
+          <category>Main Screen Menu Names</category>
+          <title>Smart Home Functions</title>
+          <summary>Smart Home Functions</summary>
+          <value>Smart Home Functions</value>
+          <defaultvalue>@2131559128</defaultvalue>
+          <key>prefLabelSmartHomeFunctions</key>
+          <type>1</type>
+          <ListItems />
+        </Setting>
+        <Setting>
+          <category>Main Screen Menu Names</category>
+          <title>Scenarios</title>
+          <summary>Scenarios</summary>
+          <value>Scenarios</value>
+          <defaultvalue>@2131559062</defaultvalue>
+          <key>prefLabelScenarios</key>
+          <type>1</type>
+          <ListItems />
+        </Setting>
+        <Setting>
+          <category>Main Screen Menu Names</category>
+          <title>Messages</title>
+          <summary>Messages</summary>
+          <value>Messages</value>
+          <defaultvalue>@2131558844</defaultvalue>
+          <key>prefLabelMessages</key>
+          <type>1</type>
+          <ListItems />
+        </Setting>
+        <Setting>
+          <category>Main Screen Menu Names</category>
+          <title>Intercom</title>
+          <summary>Intercom</summary>
+          <value>Intercom</value>
+          <defaultvalue>@2131558914</defaultvalue>
+          <key>prefLabelPhoneCall</key>
+          <type>1</type>
+          <ListItems />
+        </Setting>
+        <Setting>
+          <category>Main Screen Menu Names</category>
+          <title>Security</title>
+          <summary>Security</summary>
+          <value>Security</value>
+          <defaultvalue>@2131559068</defaultvalue>
+          <key>prefLabelSecurity</key>
+          <type>1</type>
+          <ListItems />
+        </Setting>
+        <Setting>
+          <category>Main Screen Menu Names</category>
+          <title>Services</title>
+          <summary>Services</summary>
+          <value>Services</value>
+          <defaultvalue>@2131559087</defaultvalue>
+          <key>prefLabelServices</key>
+          <type>1</type>
+          <ListItems />
+        </Setting>
+        <Setting>
+          <category>Main Screen Menu Names</category>
+          <title>Cameras</title>
+          <summary>Cameras</summary>
+          <value>Cameras</value>
+          <defaultvalue>@2131558518</defaultvalue>
+          <key>prefLabelCameras</key>
+          <type>1</type>
+          <ListItems />
+        </Setting>
+        <Setting>
+          <category>Main Screen Menu Names</category>
+          <title>Traffic Info</title>
+          <summary>Traffic Info</summary>
+          <value />
+          <defaultvalue>@2131559211</defaultvalue>
+          <key>prefLabelTrafficInformation</key>
+          <type>1</type>
+          <ListItems />
+        </Setting>
+        <Setting>
+          <category>Main Screen Menu Names</category>
+          <title>Settings</title>
+          <summary>Settings</summary>
+          <value>Settings</value>
+          <defaultvalue>@2131559089</defaultvalue>
+          <key>prefLabelSettings</key>
+          <type>1</type>
+          <ListItems />
+        </Setting>
+      </Settings>
+    </SettingsHeader>
+    <SettingsHeader>
+      <title>Concierge Settings</title>
+      <summary />
+      <id>137</id>
+      <Settings>
+        <Setting>
+          <category>Concierge Settings</category>
+          <title>Concierge Services Server Address</title>
+          <summary>Concierge Services Server Address</summary>
+          <value>http://192.168.1.1:8765</value>
+          <defaultvalue>http://192.168.1.1:8765</defaultvalue>
+          <key>prefConciergeServerAddress</key>
+          <type>1</type>
+          <ListItems />
+        </Setting>
+        <Setting>
+          <category>Concierge Settings</category>
+          <title>Control Frequency (min)</title>
+          <summary>Control Frequency (min)</summary>
+          <value>5</value>
+          <defaultvalue>5</defaultvalue>
+          <key>prefConciergeMessageRefreshPeriod</key>
+          <type>1</type>
+          <ListItems />
+        </Setting>
+        <Setting>
+          <category>Concierge Settings</category>
+          <title>Keep AnalyticsLog</title>
+          <summary />
+          <value>false</value>
+          <defaultvalue>false</defaultvalue>
+          <key>pref_analyticLog</key>
+          <type>3</type>
+          <ListItems />
+        </Setting>
+      </Settings>
+    </SettingsHeader>
+    <SettingsHeader>
+      <title>Camera Settings</title>
+      <summary />
+      <id>142</id>
+      <Settings>
+        <Setting>
+          <category>IP Cameras</category>
+          <title>Number 1 IP Camera Name</title>
+          <summary>Number 1 IP Camera Name</summary>
+          <value>2N</value>
+          <defaultvalue>@2131558509</defaultvalue>
+          <key>prefIPCamera1_Name</key>
+          <type>1</type>
+          <ListItems />
+        </Setting>
+        <Setting>
+          <category>IP Cameras</category>
+          <title>Number 1 IP Camera Address</title>
+          <summary>Number 1 IP Camera Address</summary>
+          <value>http://192.168.100.100/api/camera/snapshot?width=640&amp;height=480&amp;fps=15</value>
+          <defaultvalue />
+          <key>prefIPCamera1_IP</key>
+          <type>1</type>
+          <ListItems />
+        </Setting>
+        <Setting>
+          <category>IP Cameras</category>
+          <title>Number 2 IP Camera Name</title>
+          <summary>Number 2 IP Camera Name</summary>
+          <value>Camera2</value>
+          <defaultvalue>@2131558510</defaultvalue>
+          <key>prefIPCamera2_Name</key>
+          <type>1</type>
+          <ListItems />
+        </Setting>
+        <Setting>
+          <category>IP Cameras</category>
+          <title>Number 2 IP Camera Address</title>
+          <summary>Number 2 IP Camera Address</summary>
+          <value />
+          <defaultvalue />
+          <key>prefIPCamera2_IP</key>
+          <type>1</type>
+          <ListItems />
+        </Setting>
+        <Setting>
+          <category>IP Cameras</category>
+          <title>Number 3 IP Camera Name</title>
+          <summary>Number 3 IP Camera Name</summary>
+          <value>Camera3</value>
+          <defaultvalue>@2131558511</defaultvalue>
+          <key>prefIPCamera3_Name</key>
+          <type>1</type>
+          <ListItems />
+        </Setting>
+        <Setting>
+          <category>IP Cameras</category>
+          <title>Number 3 IP Camera Address</title>
+          <summary>Number 3 IP Camera Address</summary>
+          <value />
+          <defaultvalue />
+          <key>prefIPCamera3_IP</key>
+          <type>1</type>
+          <ListItems />
+        </Setting>
+        <Setting>
+          <category>IP Cameras</category>
+          <title>Number 4 IP Camera Name</title>
+          <summary>Number 4 IP Camera Name</summary>
+          <value>Camera4</value>
+          <defaultvalue>@2131558512</defaultvalue>
+          <key>prefIPCamera4_Name</key>
+          <type>1</type>
+          <ListItems />
+        </Setting>
+        <Setting>
+          <category>IP Cameras</category>
+          <title>Number 4 IP Camera Address</title>
+          <summary>Number 4 IP Camera Address</summary>
+          <value />
+          <defaultvalue />
+          <key>prefIPCamera4_IP</key>
+          <type>1</type>
+          <ListItems />
+        </Setting>
+        <Setting>
+          <category>IP Cameras</category>
+          <title>Number 5 IP Camera Name</title>
+          <summary>Number 5 IP Camera Name</summary>
+          <value>Camera5</value>
+          <defaultvalue>@2131558513</defaultvalue>
+          <key>prefIPCamera5_Name</key>
+          <type>1</type>
+          <ListItems />
+        </Setting>
+        <Setting>
+          <category>IP Cameras</category>
+          <title>Number 5 IP Camera Address</title>
+          <summary>Number 5 IP Camera Address</summary>
+          <value />
+          <defaultvalue />
+          <key>prefIPCamera5_IP</key>
+          <type>1</type>
+          <ListItems />
+        </Setting>
+        <Setting>
+          <category>IP Cameras</category>
+          <title>Number 6 IP Camera Name</title>
+          <summary>Number 6 IP Camera Name</summary>
+          <value>Camera6</value>
+          <defaultvalue>@2131558514</defaultvalue>
+          <key>prefIPCamera6_Name</key>
+          <type>1</type>
+          <ListItems />
+        </Setting>
+        <Setting>
+          <category>IP Cameras</category>
+          <title>Number 6 IP Camera Address</title>
+          <summary>Number 6 IP Camera Address</summary>
+          <value />
+          <defaultvalue />
+          <key>prefIPCamera6_IP</key>
+          <type>1</type>
+          <ListItems />
+        </Setting>
+        <Setting>
+          <category>IP Cameras</category>
+          <title>Number 7 IP Camera Name</title>
+          <summary>Number 7 IP Camera Name</summary>
+          <value>Camera7</value>
+          <defaultvalue>@2131558515</defaultvalue>
+          <key>prefIPCamera7_Name</key>
+          <type>1</type>
+          <ListItems />
+        </Setting>
+        <Setting>
+          <category>IP Cameras</category>
+          <title>Number 7 IP Camera Address</title>
+          <summary>Number 7 IP Camera Address</summary>
+          <value />
+          <defaultvalue />
+          <key>prefIPCamera7_IP</key>
+          <type>1</type>
+          <ListItems />
+        </Setting>
+        <Setting>
+          <category>IP Cameras</category>
+          <title>Number 8 IP Camera Name</title>
+          <summary>Number 8 IP Camera Name</summary>
+          <value>Camera8</value>
+          <defaultvalue>@2131558516</defaultvalue>
+          <key>prefIPCamera8_Name</key>
+          <type>1</type>
+          <ListItems />
+        </Setting>
+        <Setting>
+          <category>IP Cameras</category>
+          <title>Number 8 IP Camera Address</title>
+          <summary>Number 8 IP Camera Address</summary>
+          <value />
+          <defaultvalue />
+          <key>prefIPCamera8_IP</key>
+          <type>1</type>
+          <ListItems />
+        </Setting>
+      </Settings>
+    </SettingsHeader>
+    <SettingsHeader>
+      <title>Scenario Settings</title>
+      <summary />
+      <id>160</id>
+      <Settings>
+        <Setting>
+          <category>Scenario Authorizations</category>
+          <title>Could Create Scenario</title>
+          <summary>User could create scenario</summary>
+          <value>false</value>
+          <defaultvalue>true</defaultvalue>
+          <key>prefScenario_AddAllow</key>
+          <type>3</type>
+          <ListItems />
+        </Setting>
+        <Setting>
+          <category>Scenario Authorizations</category>
+          <title>Editable Scenarios</title>
+          <summary>User could edit scenario</summary>
+          <value>false</value>
+          <defaultvalue>true</defaultvalue>
+          <key>prefScenario_EditAllow</key>
+          <type>3</type>
+          <ListItems />
+        </Setting>
+        <Setting>
+          <category>Scenario Authorizations</category>
+          <title>Scenarios could use in any scenario</title>
+          <summary>Scenarios could use in any scenario</summary>
+          <value>false</value>
+          <defaultvalue>false</defaultvalue>
+          <key>prefScenario_InnerScenario</key>
+          <type>3</type>
+          <ListItems />
+        </Setting>
+      </Settings>
+    </SettingsHeader>
+    <SettingsHeader>
+      <title>KNX Settings</title>
+      <summary />
+      <id>165</id>
+      <Settings>
+        <Setting>
+          <category>Network Settings</category>
+          <title>KNX Mode</title>
+          <summary>KNX Communication Mode</summary>
+          <value>3</value>
+          <defaultvalue>3</defaultvalue>
+          <key>prefKnxMode</key>
+          <type>4</type>
+          <ListItems>
+            <ListItem>
+              <title>None of them</title>
+              <id>0</id>
+            </ListItem>
+            <ListItem>
+              <title>IP Router</title>
+              <id>1</id>
+            </ListItem>
+            <ListItem>
+              <title>Internal Knx</title>
+              <id>2</id>
+            </ListItem>
+            <ListItem>
+              <title>External Knx</title>
+              <id>3</id>
+            </ListItem>
+            <ListItem>
+              <title>Digital IO</title>
+              <id>4</id>
+            </ListItem>
+          </ListItems>
+        </Setting>
+        <Setting>
+          <category>Network Settings</category>
+          <title>IP Router</title>
+          <summary>IP Router IP Address</summary>
+          <value />
+          <defaultvalue />
+          <key>prefIPRouterIP</key>
+          <type>1</type>
+          <ListItems />
+        </Setting>
+        <Setting>
+          <category>Network Settings</category>
+          <title>IP Address of Screen</title>
+          <summary>IP Address of Screen</summary>
+          <value />
+          <defaultvalue />
+          <key>prefDeviceIp</key>
+          <type>1</type>
+          <ListItems />
+        </Setting>
+        <Setting>
+          <category>Network Settings</category>
+          <title>Physical Address</title>
+          <summary>Physical Address</summary>
+          <value>15.15.250</value>
+          <defaultvalue>15.15.250</defaultvalue>
+          <key>prefPhysicalAddr</key>
+          <type>1</type>
+          <ListItems />
+        </Setting>
+        <Setting>
+          <category>Network Settings</category>
+          <title>Use Internal GPIO</title>
+          <summary>GPIO Mode</summary>
+          <value>true</value>
+          <defaultvalue>true</defaultvalue>
+          <key>prefInternalGPIO</key>
+          <type>3</type>
+          <ListItems />
+        </Setting>
+      </Settings>
+    </SettingsHeader>
+    <SettingsHeader>
+      <title>SIP Settings</title>
+      <summary />
+      <id>172</id>
+      <Settings>
+        <Setting>
+          <category>SIP Account Settings</category>
+          <title>SIP Account Number</title>
+          <summary>SIP Account Number</summary>
+          <value>101</value>
+          <defaultvalue>101</defaultvalue>
+          <key>prefSipAccountId</key>
+          <type>1</type>
+          <ListItems />
+        </Setting>
+        <Setting>
+          <category>SIP Account Settings</category>
+          <title>SIP Account Password</title>
+          <summary>SIP Account Password</summary>
+          <value>1234</value>
+          <defaultvalue>1234</defaultvalue>
+          <key>prefSipAccountPassword</key>
+          <type>1</type>
+          <ListItems />
+        </Setting>
+        <Setting>
+          <category>SIP Account Settings</category>
+          <title>SIP Server IP Address</title>
+          <summary>SIP Server IP Address</summary>
+          <value />
+          <defaultvalue />
+          <key>prefSipServerIP</key>
+          <type>1</type>
+          <ListItems />
+        </Setting>
+        <Setting>
+          <category>SIP Account Settings</category>
+          <title>Remote Access SIP Account No</title>
+          <summary>Remote Access SIP Account No</summary>
+          <value />
+          <defaultvalue />
+          <key>prefSipExternalAccountId</key>
+          <type>1</type>
+          <ListItems />
+        </Setting>
+        <Setting>
+          <category>SIP Account Settings</category>
+          <title>Remote Access SIP Account Password</title>
+          <summary>Remote Access SIP Account Password</summary>
+          <value />
+          <defaultvalue />
+          <key>prefSipExternalAccountPassword</key>
+          <type>1</type>
+          <ListItems />
+        </Setting>
+        <Setting>
+          <category>SIP Account Settings</category>
+          <title>SIP Server Internet IP Address</title>
+          <summary>SIP Server Internet IP Address</summary>
+          <value />
+          <defaultvalue />
+          <key>prefSipServerExternalIP</key>
+          <type>1</type>
+          <ListItems />
+        </Setting>
+        <Setting>
+          <category>SIP Account Settings</category>
+          <title>Open Door Command</title>
+          <summary>Door Name 1</summary>
+          <value />
+          <defaultvalue />
+          <key>prefSipIntercomOpenDoorCommand</key>
+          <type>1</type>
+          <ListItems />
+        </Setting>
+        <Setting>
+          <category>SIP Account Settings</category>
+          <title>Push to Talk Mode</title>
+          <summary>Talk mode by touching the screen during a call</summary>
+          <value>false</value>
+          <defaultvalue>false</defaultvalue>
+          <key>prefSipWalkieTalkie</key>
+          <type>3</type>
+          <ListItems />
+        </Setting>
+        <Setting>
+          <category>SIP Account Settings</category>
+          <title>External echo canceler</title>
+          <summary>External echo canceler</summary>
+          <value>false</value>
+          <defaultvalue>false</defaultvalue>
+          <key>prefExternalSpeaker</key>
+          <type>3</type>
+          <ListItems />
+        </Setting>
+        <Setting>
+          <category>SIP Account Settings</category>
+          <title>Echo Limiter</title>
+          <summary>Echo Limiter</summary>
+          <value>false</value>
+          <defaultvalue>false</defaultvalue>
+          <key>prefEchoLimiter</key>
+          <type>3</type>
+          <ListItems />
+        </Setting>
+      </Settings>
+      <Settings>
+        <Setting>
+          <category>Intercom 1</category>
+          <title>Sip Id</title>
+          <summary>Intercom Sip Id</summary>
+          <value>123</value>
+          <defaultvalue />
+          <key>prefSipIntercom1Id</key>
+          <type>1</type>
+          <ListItems />
+        </Setting>
+        <Setting>
+          <category>Intercom 1</category>
+          <title>Intercom SIP Name</title>
+          <summary>Intercom SIP Name</summary>
+          <value>2N Vario</value>
+          <defaultvalue>@2131558578</defaultvalue>
+          <key>prefSipIntercom1Name</key>
+          <type>1</type>
+          <ListItems />
+        </Setting>
+        <Setting>
+          <category>Intercom 1</category>
+          <title>External Camera Mode</title>
+          <summary>Allways use external camera</summary>
+          <value>true</value>
+          <defaultvalue>false</defaultvalue>
+          <key>prefSipIntercom1ExternalCameraMode</key>
+          <type>3</type>
+          <ListItems />
+        </Setting>
+        <Setting>
+          <category>Intercom 1</category>
+          <title>External Camera</title>
+          <summary>External Camera IP Address(mjpeg)</summary>
+          <value>http://192.168.100.100/api/camera/snapshot?width=640&amp;height=480&amp;fps=15</value>
+          <defaultvalue />
+          <key>prefSipIntercom1IpCameraAddress</key>
+          <type>1</type>
+          <ListItems />
+        </Setting>
+        <Setting>
+          <category>Intercom 1</category>
+          <title>Open Door Command</title>
+          <summary>Door Name 2</summary>
+          <value>00</value>
+          <defaultvalue />
+          <key>prefSipIntercom1OpenDoorCommand</key>
+          <type>1</type>
+          <ListItems />
+        </Setting>
+        <Setting>
+          <category>Intercom 1</category>
+          <title>Ring</title>
+          <summary>Ring</summary>
+          <value />
+          <defaultvalue />
+          <key>prefSipIntercom1Ring</key>
+          <type>1</type>
+          <ListItems />
+        </Setting>
+        <Setting>
+          <category>Intercom 1</category>
+          <title>Push to Talk Mode</title>
+          <summary>Talk mode by touching the screen during a call</summary>
+          <value>false</value>
+          <defaultvalue>false</defaultvalue>
+          <key>prefSipIntercom1WalkieTalkie</key>
+          <type>3</type>
+          <ListItems />
+        </Setting>
+        <Setting>
+          <category>Intercom 1</category>
+          <title>Visitor Image</title>
+          <summary>Do you want to visitor image saved?</summary>
+          <value>0</value>
+          <defaultvalue>0</defaultvalue>
+          <key>prefSipIntercom1PreviewSaveType</key>
+          <type>4</type>
+          <ListItems>
+            <ListItem>
+              <title>Don't Save!</title>
+              <id>0</id>
+            </ListItem>
+            <ListItem>
+              <title>Save Missed</title>
+              <id>1</id>
+            </ListItem>
+          </ListItems>
+        </Setting>
+      </Settings>
+      <Settings>
+        <Setting>
+          <category>Intercom 2</category>
+          <title>Sip Id</title>
+          <summary>Intercom Sip Id</summary>
+          <value />
+          <defaultvalue />
+          <key>prefSipIntercom2Id</key>
+          <type>1</type>
+          <ListItems />
+        </Setting>
+        <Setting>
+          <category>Intercom 2</category>
+          <title>Intercom SIP Name</title>
+          <summary>Intercom SIP Name</summary>
+          <value>Door Name 3</value>
+          <defaultvalue>@2131558579</defaultvalue>
+          <key>prefSipIntercom2Name</key>
+          <type>1</type>
+          <ListItems />
+        </Setting>
+        <Setting>
+          <category>Intercom 2</category>
+          <title>External Camera Mode</title>
+          <summary>Allways use external camera</summary>
+          <value>false</value>
+          <defaultvalue>false</defaultvalue>
+          <key>prefSipIntercom2ExternalCameraMode</key>
+          <type>3</type>
+          <ListItems />
+        </Setting>
+        <Setting>
+          <category>Intercom 2</category>
+          <title>External Camera</title>
+          <summary>External Camera IP Address(mjpeg)</summary>
+          <value />
+          <defaultvalue />
+          <key>prefSipIntercom2IpCameraAddress</key>
+          <type>1</type>
+          <ListItems />
+        </Setting>
+        <Setting>
+          <category>Intercom 2</category>
+          <title>Open Door Command</title>
+          <summary>Door Name 3</summary>
+          <value />
+          <defaultvalue />
+          <key>prefSipIntercom2OpenDoorCommand</key>
+          <type>1</type>
+          <ListItems />
+        </Setting>
+        <Setting>
+          <category>Intercom 2</category>
+          <title>Ring</title>
+          <summary>Ring</summary>
+          <value />
+          <defaultvalue />
+          <key>prefSipIntercom2Ring</key>
+          <type>1</type>
+          <ListItems />
+        </Setting>
+        <Setting>
+          <category>Intercom 2</category>
+          <title>Push to Talk Mode</title>
+          <summary>Talk mode by touching the screen during a call</summary>
+          <value>false</value>
+          <defaultvalue>false</defaultvalue>
+          <key>prefSipIntercom2WalkieTalkie</key>
+          <type>3</type>
+          <ListItems />
+        </Setting>
+        <Setting>
+          <category>Intercom 2</category>
+          <title>Visitor Image</title>
+          <summary>Do you want to visitor image saved?</summary>
+          <value>0</value>
+          <defaultvalue>0</defaultvalue>
+          <key>prefSipIntercom2PreviewSaveType</key>
+          <type>4</type>
+          <ListItems>
+            <ListItem>
+              <title>Don't Save!</title>
+              <id>0</id>
+            </ListItem>
+            <ListItem>
+              <title>Save Missed</title>
+              <id>1</id>
+            </ListItem>
+          </ListItems>
+        </Setting>
+      </Settings>
+      <Settings>
+        <Setting>
+          <category>Intercom 3</category>
+          <title>Sip Id</title>
+          <summary>Intercom Sip Id</summary>
+          <value />
+          <defaultvalue />
+          <key>prefSipIntercom3Id</key>
+          <type>1</type>
+          <ListItems />
+        </Setting>
+        <Setting>
+          <category>Intercom 3</category>
+          <title>Intercom SIP Name</title>
+          <summary>Intercom SIP Name</summary>
+          <value>Door Name 4</value>
+          <defaultvalue>@2131558580</defaultvalue>
+          <key>prefSipIntercom3Name</key>
+          <type>1</type>
+          <ListItems />
+        </Setting>
+        <Setting>
+          <category>Intercom 3</category>
+          <title>External Camera Mode</title>
+          <summary>Allways use external camera</summary>
+          <value>false</value>
+          <defaultvalue>false</defaultvalue>
+          <key>prefSipIntercom3ExternalCameraMode</key>
+          <type>3</type>
+          <ListItems />
+        </Setting>
+        <Setting>
+          <category>Intercom 3</category>
+          <title>External Camera</title>
+          <summary>External Camera IP Address(mjpeg)</summary>
+          <value />
+          <defaultvalue />
+          <key>prefSipIntercom3IpCameraAddress</key>
+          <type>1</type>
+          <ListItems />
+        </Setting>
+        <Setting>
+          <category>Intercom 3</category>
+          <title>Open Door Command</title>
+          <summary>Door Name 4</summary>
+          <value />
+          <defaultvalue />
+          <key>prefSipIntercom3OpenDoorCommand</key>
+          <type>1</type>
+          <ListItems />
+        </Setting>
+        <Setting>
+          <category>Intercom 3</category>
+          <title>Ring</title>
+          <summary>Ring</summary>
+          <value />
+          <defaultvalue />
+          <key>prefSipIntercom3Ring</key>
+          <type>1</type>
+          <ListItems />
+        </Setting>
+        <Setting>
+          <category>Intercom 3</category>
+          <title>Push to Talk Mode</title>
+          <summary>Talk mode by touching the screen during a call</summary>
+          <value>false</value>
+          <defaultvalue>false</defaultvalue>
+          <key>prefSipIntercom3WalkieTalkie</key>
+          <type>3</type>
+          <ListItems />
+        </Setting>
+        <Setting>
+          <category>Intercom 3</category>
+          <title>Visitor Image</title>
+          <summary>Do you want to visitor image saved?</summary>
+          <value>0</value>
+          <defaultvalue>0</defaultvalue>
+          <key>prefSipIntercom3PreviewSaveType</key>
+          <type>4</type>
+          <ListItems>
+            <ListItem>
+              <title>Don't Save!</title>
+              <id>0</id>
+            </ListItem>
+            <ListItem>
+              <title>Save Missed</title>
+              <id>1</id>
+            </ListItem>
+          </ListItems>
+        </Setting>
+      </Settings>
+      <Settings>
+        <Setting>
+          <category>Intercom 4</category>
+          <title>Sip Id</title>
+          <summary>Intercom Sip Id</summary>
+          <value />
+          <defaultvalue />
+          <key>prefSipIntercom4Id</key>
+          <type>1</type>
+          <ListItems />
+        </Setting>
+        <Setting>
+          <category>Intercom 4</category>
+          <title>Intercom SIP Name</title>
+          <summary>Intercom SIP Name</summary>
+          <value>Door Name 5</value>
+          <defaultvalue>@2131558581</defaultvalue>
+          <key>prefSipIntercom4Name</key>
+          <type>1</type>
+          <ListItems />
+        </Setting>
+        <Setting>
+          <category>Intercom 4</category>
+          <title>External Camera Mode</title>
+          <summary>Allways use external camera</summary>
+          <value>false</value>
+          <defaultvalue>false</defaultvalue>
+          <key>prefSipIntercom4ExternalCameraMode</key>
+          <type>3</type>
+          <ListItems />
+        </Setting>
+        <Setting>
+          <category>Intercom 4</category>
+          <title>External Camera</title>
+          <summary>External Camera IP Address(mjpeg)</summary>
+          <value />
+          <defaultvalue />
+          <key>prefSipIntercom4IpCameraAddress</key>
+          <type>1</type>
+          <ListItems />
+        </Setting>
+        <Setting>
+          <category>Intercom 4</category>
+          <title>Open Door Command</title>
+          <summary>Door Name 5</summary>
+          <value />
+          <defaultvalue />
+          <key>prefSipIntercom4OpenDoorCommand</key>
+          <type>1</type>
+          <ListItems />
+        </Setting>
+        <Setting>
+          <category>Intercom 4</category>
+          <title>Ring</title>
+          <summary>Ring</summary>
+          <value />
+          <defaultvalue />
+          <key>prefSipIntercom4Ring</key>
+          <type>1</type>
+          <ListItems />
+        </Setting>
+        <Setting>
+          <category>Intercom 4</category>
+          <title>Push to Talk Mode</title>
+          <summary>Talk mode by touching the screen during a call</summary>
+          <value>false</value>
+          <defaultvalue>false</defaultvalue>
+          <key>prefSipIntercom4WalkieTalkie</key>
+          <type>3</type>
+          <ListItems />
+        </Setting>
+        <Setting>
+          <category>Intercom 4</category>
+          <title>Visitor Image</title>
+          <summary>Do you want to visitor image saved?</summary>
+          <value>0</value>
+          <defaultvalue>0</defaultvalue>
+          <key>prefSipIntercom4PreviewSaveType</key>
+          <type>4</type>
+          <ListItems>
+            <ListItem>
+              <title>Don't Save!</title>
+              <id>0</id>
+            </ListItem>
+            <ListItem>
+              <title>Save Missed</title>
+              <id>1</id>
+            </ListItem>
+          </ListItems>
+        </Setting>
+      </Settings>
+      <Settings>
+        <Setting>
+          <category>Intercom 5</category>
+          <title>Sip Id</title>
+          <summary>Intercom Sip Id</summary>
+          <value />
+          <defaultvalue />
+          <key>prefSipIntercom5Id</key>
+          <type>1</type>
+          <ListItems />
+        </Setting>
+        <Setting>
+          <category>Intercom 5</category>
+          <title>Intercom SIP Name</title>
+          <summary>Intercom SIP Name</summary>
+          <value>Door Name 6</value>
+          <defaultvalue>@2131558582</defaultvalue>
+          <key>prefSipIntercom5Name</key>
+          <type>1</type>
+          <ListItems />
+        </Setting>
+        <Setting>
+          <category>Intercom 5</category>
+          <title>External Camera Mode</title>
+          <summary>Allways use external camera</summary>
+          <value>false</value>
+          <defaultvalue>false</defaultvalue>
+          <key>prefSipIntercom5ExternalCameraMode</key>
+          <type>3</type>
+          <ListItems />
+        </Setting>
+        <Setting>
+          <category>Intercom 5</category>
+          <title>External Camera</title>
+          <summary>External Camera IP Address(mjpeg)</summary>
+          <value />
+          <defaultvalue />
+          <key>prefSipIntercom5IpCameraAddress</key>
+          <type>1</type>
+          <ListItems />
+        </Setting>
+        <Setting>
+          <category>Intercom 5</category>
+          <title>Open Door Command</title>
+          <summary>Door Name 6</summary>
+          <value />
+          <defaultvalue />
+          <key>prefSipIntercom5OpenDoorCommand</key>
+          <type>1</type>
+          <ListItems />
+        </Setting>
+        <Setting>
+          <category>Intercom 5</category>
+          <title>Ring</title>
+          <summary>Ring</summary>
+          <value />
+          <defaultvalue />
+          <key>prefSipIntercom5Ring</key>
+          <type>1</type>
+          <ListItems />
+        </Setting>
+        <Setting>
+          <category>Intercom 5</category>
+          <title>Push to Talk Mode</title>
+          <summary>Talk mode by touching the screen during a call</summary>
+          <value>false</value>
+          <defaultvalue>false</defaultvalue>
+          <key>prefSipIntercom5WalkieTalkie</key>
+          <type>3</type>
+          <ListItems />
+        </Setting>
+        <Setting>
+          <category>Intercom 5</category>
+          <title>Visitor Image</title>
+          <summary>Do you want to visitor image saved?</summary>
+          <value>0</value>
+          <defaultvalue>0</defaultvalue>
+          <key>prefSipIntercom5PreviewSaveType</key>
+          <type>4</type>
+          <ListItems>
+            <ListItem>
+              <title>Don't Save!</title>
+              <id>0</id>
+            </ListItem>
+            <ListItem>
+              <title>Save Missed</title>
+              <id>1</id>
+            </ListItem>
+          </ListItems>
+        </Setting>
+      </Settings>
+      <Settings>
+        <Setting>
+          <category>Intercom 6</category>
+          <title>Sip Id</title>
+          <summary>Intercom Sip Id</summary>
+          <value />
+          <defaultvalue />
+          <key>prefSipIntercom6Id</key>
+          <type>1</type>
+          <ListItems />
+        </Setting>
+        <Setting>
+          <category>Intercom 6</category>
+          <title>Intercom SIP Name</title>
+          <summary>Intercom SIP Name</summary>
+          <value>Door Name 7</value>
+          <defaultvalue>@2131558583</defaultvalue>
+          <key>prefSipIntercom6Name</key>
+          <type>1</type>
+          <ListItems />
+        </Setting>
+        <Setting>
+          <category>Intercom 6</category>
+          <title>External Camera Mode</title>
+          <summary>Allways use external camera</summary>
+          <value>false</value>
+          <defaultvalue>false</defaultvalue>
+          <key>prefSipIntercom6ExternalCameraMode</key>
+          <type>3</type>
+          <ListItems />
+        </Setting>
+        <Setting>
+          <category>Intercom 6</category>
+          <title>External Camera</title>
+          <summary>External Camera IP Address(mjpeg)</summary>
+          <value />
+          <defaultvalue />
+          <key>prefSipIntercom6IpCameraAddress</key>
+          <type>1</type>
+          <ListItems />
+        </Setting>
+        <Setting>
+          <category>Intercom 6</category>
+          <title>Open Door Command</title>
+          <summary>Door Name 7</summary>
+          <value />
+          <defaultvalue />
+          <key>prefSipIntercom6OpenDoorCommand</key>
+          <type>1</type>
+          <ListItems />
+        </Setting>
+        <Setting>
+          <category>Intercom 6</category>
+          <title>Ring</title>
+          <summary>Ring</summary>
+          <value />
+          <defaultvalue />
+          <key>prefSipIntercom6Ring</key>
+          <type>1</type>
+          <ListItems />
+        </Setting>
+        <Setting>
+          <category>Intercom 6</category>
+          <title>Push to Talk Mode</title>
+          <summary>Talk mode by touching the screen during a call</summary>
+          <value>false</value>
+          <defaultvalue>false</defaultvalue>
+          <key>prefSipIntercom6WalkieTalkie</key>
+          <type>3</type>
+          <ListItems />
+        </Setting>
+        <Setting>
+          <category>Intercom 6</category>
+          <title>Visitor Image</title>
+          <summary>Do you want to visitor image saved?</summary>
+          <value>0</value>
+          <defaultvalue>0</defaultvalue>
+          <key>prefSipIntercom6PreviewSaveType</key>
+          <type>4</type>
+          <ListItems>
+            <ListItem>
+              <title>Don't Save!</title>
+              <id>0</id>
+            </ListItem>
+            <ListItem>
+              <title>Save Missed</title>
+              <id>1</id>
+            </ListItem>
+          </ListItems>
+        </Setting>
+      </Settings>
+      <Settings>
+        <Setting>
+          <category>Intercom 7</category>
+          <title>Sip Id</title>
+          <summary>Intercom Sip Id</summary>
+          <value />
+          <defaultvalue />
+          <key>prefSipIntercom7Id</key>
+          <type>1</type>
+          <ListItems />
+        </Setting>
+        <Setting>
+          <category>Intercom 7</category>
+          <title>Intercom SIP Name</title>
+          <summary>Intercom SIP Name</summary>
+          <value>Door Name 8</value>
+          <defaultvalue>@2131558584</defaultvalue>
+          <key>prefSipIntercom7Name</key>
+          <type>1</type>
+          <ListItems />
+        </Setting>
+        <Setting>
+          <category>Intercom 7</category>
+          <title>External Camera Mode</title>
+          <summary>Allways use external camera</summary>
+          <value>false</value>
+          <defaultvalue>false</defaultvalue>
+          <key>prefSipIntercom7ExternalCameraMode</key>
+          <type>3</type>
+          <ListItems />
+        </Setting>
+        <Setting>
+          <category>Intercom 7</category>
+          <title>External Camera</title>
+          <summary>External Camera IP Address(mjpeg)</summary>
+          <value />
+          <defaultvalue />
+          <key>prefSipIntercom7IpCameraAddress</key>
+          <type>1</type>
+          <ListItems />
+        </Setting>
+        <Setting>
+          <category>Intercom 7</category>
+          <title>Open Door Command</title>
+          <summary>Door Name 8</summary>
+          <value />
+          <defaultvalue />
+          <key>prefSipIntercom7OpenDoorCommand</key>
+          <type>1</type>
+          <ListItems />
+        </Setting>
+        <Setting>
+          <category>Intercom 7</category>
+          <title>Ring</title>
+          <summary>Ring</summary>
+          <value />
+          <defaultvalue />
+          <key>prefSipIntercom7Ring</key>
+          <type>1</type>
+          <ListItems />
+        </Setting>
+        <Setting>
+          <category>Intercom 7</category>
+          <title>Push to Talk Mode</title>
+          <summary>Talk mode by touching the screen during a call</summary>
+          <value>false</value>
+          <defaultvalue>false</defaultvalue>
+          <key>prefSipIntercom7WalkieTalkie</key>
+          <type>3</type>
+          <ListItems />
+        </Setting>
+        <Setting>
+          <category>Intercom 7</category>
+          <title>Visitor Image</title>
+          <summary>Do you want to visitor image saved?</summary>
+          <value>0</value>
+          <defaultvalue>0</defaultvalue>
+          <key>prefSipIntercom7PreviewSaveType</key>
+          <type>4</type>
+          <ListItems>
+            <ListItem>
+              <title>Don't Save!</title>
+              <id>0</id>
+            </ListItem>
+            <ListItem>
+              <title>Save Missed</title>
+              <id>1</id>
+            </ListItem>
+          </ListItems>
+        </Setting>
+      </Settings>
+      <Settings>
+        <Setting>
+          <category>Intercom 8</category>
+          <title>Sip Id</title>
+          <summary>Intercom Sip Id</summary>
+          <value />
+          <defaultvalue />
+          <key>prefSipIntercom8Id</key>
+          <type>1</type>
+          <ListItems />
+        </Setting>
+        <Setting>
+          <category>Intercom 8</category>
+          <title>Intercom SIP Name</title>
+          <summary>Intercom SIP Name</summary>
+          <value>Door Name 9</value>
+          <defaultvalue>@2131558585</defaultvalue>
+          <key>prefSipIntercom8Name</key>
+          <type>1</type>
+          <ListItems />
+        </Setting>
+        <Setting>
+          <category>Intercom 8</category>
+          <title>External Camera Mode</title>
+          <summary>Allways use external camera</summary>
+          <value>false</value>
+          <defaultvalue>false</defaultvalue>
+          <key>prefSipIntercom8ExternalCameraMode</key>
+          <type>3</type>
+          <ListItems />
+        </Setting>
+        <Setting>
+          <category>Intercom 8</category>
+          <title>External Camera</title>
+          <summary>External Camera IP Address(mjpeg)</summary>
+          <value />
+          <defaultvalue />
+          <key>prefSipIntercom8IpCameraAddress</key>
+          <type>1</type>
+          <ListItems />
+        </Setting>
+        <Setting>
+          <category>Intercom 8</category>
+          <title>Open Door Command</title>
+          <summary>Door Name 9</summary>
+          <value />
+          <defaultvalue />
+          <key>prefSipIntercom8OpenDoorCommand</key>
+          <type>1</type>
+          <ListItems />
+        </Setting>
+        <Setting>
+          <category>Intercom 8</category>
+          <title>Ring</title>
+          <summary>Ring</summary>
+          <value />
+          <defaultvalue />
+          <key>prefSipIntercom8Ring</key>
+          <type>1</type>
+          <ListItems />
+        </Setting>
+        <Setting>
+          <category>Intercom 8</category>
+          <title>Push to Talk Mode</title>
+          <summary>Talk mode by touching the screen during a call</summary>
+          <value>false</value>
+          <defaultvalue>false</defaultvalue>
+          <key>prefSipIntercom8WalkieTalkie</key>
+          <type>3</type>
+          <ListItems />
+        </Setting>
+        <Setting>
+          <category>Intercom 8</category>
+          <title>Visitor Image</title>
+          <summary>Do you want to visitor image saved?</summary>
+          <value>0</value>
+          <defaultvalue>0</defaultvalue>
+          <key>prefSipIntercom8PreviewSaveType</key>
+          <type>4</type>
+          <ListItems>
+            <ListItem>
+              <title>Don't Save!</title>
+              <id>0</id>
+            </ListItem>
+            <ListItem>
+              <title>Save Missed</title>
+              <id>1</id>
+            </ListItem>
+          </ListItems>
+        </Setting>
+      </Settings>
+      <Settings>
+        <Setting>
+          <category>Intercom 9</category>
+          <title>Sip Id</title>
+          <summary>Intercom Sip Id</summary>
+          <value />
+          <defaultvalue />
+          <key>prefSipIntercom9Id</key>
+          <type>1</type>
+          <ListItems />
+        </Setting>
+        <Setting>
+          <category>Intercom 9</category>
+          <title>Intercom SIP Name</title>
+          <summary>Intercom SIP Name</summary>
+          <value>Door Name 10</value>
+          <defaultvalue>@2131558577</defaultvalue>
+          <key>prefSipIntercom9Name</key>
+          <type>1</type>
+          <ListItems />
+        </Setting>
+        <Setting>
+          <category>Intercom 9</category>
+          <title>External Camera Mode</title>
+          <summary>Allways use external camera</summary>
+          <value>false</value>
+          <defaultvalue>false</defaultvalue>
+          <key>prefSipIntercom9ExternalCameraMode</key>
+          <type>3</type>
+          <ListItems />
+        </Setting>
+        <Setting>
+          <category>Intercom 9</category>
+          <title>External Camera</title>
+          <summary>External Camera IP Address(mjpeg)</summary>
+          <value />
+          <defaultvalue />
+          <key>prefSipIntercom9IpCameraAddress</key>
+          <type>1</type>
+          <ListItems />
+        </Setting>
+        <Setting>
+          <category>Intercom 9</category>
+          <title>Open Door Command</title>
+          <summary>Door Name 10</summary>
+          <value />
+          <defaultvalue />
+          <key>prefSipIntercom9OpenDoorCommand</key>
+          <type>1</type>
+          <ListItems />
+        </Setting>
+        <Setting>
+          <category>Intercom 9</category>
+          <title>Ring</title>
+          <summary>Ring</summary>
+          <value />
+          <defaultvalue />
+          <key>prefSipIntercom9Ring</key>
+          <type>1</type>
+          <ListItems />
+        </Setting>
+        <Setting>
+          <category>Intercom 9</category>
+          <title>Push to Talk Mode</title>
+          <summary>Talk mode by touching the screen during a call</summary>
+          <value>false</value>
+          <defaultvalue>false</defaultvalue>
+          <key>prefSipIntercom9WalkieTalkie</key>
+          <type>3</type>
+          <ListItems />
+        </Setting>
+        <Setting>
+          <category>Intercom 9</category>
+          <title>Visitor Image</title>
+          <summary>Do you want to visitor image saved?</summary>
+          <value>0</value>
+          <defaultvalue>0</defaultvalue>
+          <key>prefSipIntercom9PreviewSaveType</key>
+          <type>4</type>
+          <ListItems>
+            <ListItem>
+              <title>Don't Save!</title>
+              <id>0</id>
+            </ListItem>
+            <ListItem>
+              <title>Save Missed</title>
+              <id>1</id>
+            </ListItem>
+          </ListItems>
+        </Setting>
+      </Settings>
+    </SettingsHeader>
+    <SettingsHeader>
+      <title>Quick Access</title>
+      <summary />
+      <id>265</id>
+      <Settings>
+        <Setting>
+          <category>Fast Call Definitions</category>
+          <title>Number 1 Fast Call Name</title>
+          <summary>Number 1 Fast Call Name</summary>
+          <value>2N Vario</value>
+          <defaultvalue>@2131558628</defaultvalue>
+          <key>prefFastCall1_Name</key>
+          <type>1</type>
+          <ListItems />
+        </Setting>
+        <Setting>
+          <category>Fast Call Definitions</category>
+          <title>Number 1 Fast Call Sip No</title>
+          <summary>Number 1 Fast Call Sip No</summary>
+          <value>sip:123@192.168.100.100</value>
+          <defaultvalue />
+          <key>prefFastCall1_SipId</key>
+          <type>1</type>
+          <ListItems />
+        </Setting>
+        <Setting>
+          <category>Fast Call Definitions</category>
+          <title>Number 2 Fast Call Name</title>
+          <summary>Number 2 Fast Call Name</summary>
+          <value>Fast Call 2</value>
+          <defaultvalue>@2131558629</defaultvalue>
+          <key>prefFastCall2_Name</key>
+          <type>1</type>
+          <ListItems />
+        </Setting>
+        <Setting>
+          <category>Fast Call Definitions</category>
+          <title>Number 2 Fast Call Sip No</title>
+          <summary>Number 2 Fast Call Sip No</summary>
+          <value />
+          <defaultvalue />
+          <key>prefFastCall2_SipId</key>
+          <type>1</type>
+          <ListItems />
+        </Setting>
+        <Setting>
+          <category>Fast Call Definitions</category>
+          <title>Number 3 Fast Call Name</title>
+          <summary>Number 3 Fast Call Name</summary>
+          <value>Fast Call 3</value>
+          <defaultvalue>@2131558630</defaultvalue>
+          <key>prefFastCall3_Name</key>
+          <type>1</type>
+          <ListItems />
+        </Setting>
+        <Setting>
+          <category>Fast Call Definitions</category>
+          <title>Number 3 Fast Call Sip No</title>
+          <summary>Number 3 Fast Call Sip No</summary>
+          <value />
+          <defaultvalue />
+          <key>prefFastCall3_SipId</key>
+          <type>1</type>
+          <ListItems />
+        </Setting>
+        <Setting>
+          <category>Fast Call Definitions</category>
+          <title>Number 4 Fast Call Name</title>
+          <summary>Number 4 Fast Call Name</summary>
+          <value>Fast Call 4</value>
+          <defaultvalue>@2131558631</defaultvalue>
+          <key>prefFastCall4_Name</key>
+          <type>1</type>
+          <ListItems />
+        </Setting>
+        <Setting>
+          <category>Fast Call Definitions</category>
+          <title>Number 4 Fast Call Sip No</title>
+          <summary>Number 4 Fast Call Sip No</summary>
+          <value />
+          <defaultvalue />
+          <key>prefFastCall4_SipId</key>
+          <type>1</type>
+          <ListItems />
+        </Setting>
+        <Setting>
+          <category>Fast Call Definitions</category>
+          <title>Number 5 Fast Call Name</title>
+          <summary>Number 5 Fast Call Name</summary>
+          <value>Fast Call 5</value>
+          <defaultvalue>@2131558632</defaultvalue>
+          <key>prefFastCall5_Name</key>
+          <type>1</type>
+          <ListItems />
+        </Setting>
+        <Setting>
+          <category>Fast Call Definitions</category>
+          <title>Number 5 Fast Call Sip No</title>
+          <summary>Number 5 Fast Call Sip No</summary>
+          <value />
+          <defaultvalue />
+          <key>prefFastCall5_SipId</key>
+          <type>1</type>
+          <ListItems />
+        </Setting>
+        <Setting>
+          <category>Fast Call Definitions</category>
+          <title>Number 6 Fast Call Name</title>
+          <summary>Number 6 Fast Call Name</summary>
+          <value>Fast Call 6</value>
+          <defaultvalue>@2131558633</defaultvalue>
+          <key>prefFastCall6_Name</key>
+          <type>1</type>
+          <ListItems />
+        </Setting>
+        <Setting>
+          <category>Fast Call Definitions</category>
+          <title>Number 6 Fast Call Sip No</title>
+          <summary>Number 6 Fast Call Sip No</summary>
+          <value />
+          <defaultvalue />
+          <key>prefFastCall6_SipId</key>
+          <type>1</type>
+          <ListItems />
+        </Setting>
+        <Setting>
+          <category>Fast Call Definitions</category>
+          <title>Number 7 Fast Call Name</title>
+          <summary>Number 7 Fast Call Name</summary>
+          <value>Fast Call 7</value>
+          <defaultvalue>@2131558634</defaultvalue>
+          <key>prefFastCall7_Name</key>
+          <type>1</type>
+          <ListItems />
+        </Setting>
+        <Setting>
+          <category>Fast Call Definitions</category>
+          <title>Number 7 Fast Call Sip No</title>
+          <summary>Number 7 Fast Call Sip No</summary>
+          <value />
+          <defaultvalue />
+          <key>prefFastCall7_SipId</key>
+          <type>1</type>
+          <ListItems />
+        </Setting>
+        <Setting>
+          <category>Fast Call Definitions</category>
+          <title>Number 8 Fast Call Name</title>
+          <summary>Number 8 Fast Call Name</summary>
+          <value>Fast Call 8</value>
+          <defaultvalue>@2131558635</defaultvalue>
+          <key>prefFastCall8_Name</key>
+          <type>1</type>
+          <ListItems />
+        </Setting>
+        <Setting>
+          <category>Fast Call Definitions</category>
+          <title>Number 8 Fast Call Sip No</title>
+          <summary>Number 8 Fast Call Sip No</summary>
+          <value />
+          <defaultvalue />
+          <key>prefFastCall8_SipId</key>
+          <type>1</type>
+          <ListItems />
+        </Setting>
+      </Settings>
+    </SettingsHeader>
+  </SettingsHeaders>
+  <SmartHomeSettings>
+    <rooms>
+      <room>
+        <name>پذیرایی</name>
+        <index>0</index>
+        <image />
+        <id>2</id>
+        <categoryName1>روشنایی</categoryName1>
+        <categoryName2>فنکوئل</categoryName2>
+        <categoryName3>تغییر فصل</categoryName3>
+        <component>
+          <name>لوستر چپ 1</name>
+          <groupaddress>1/2/1</groupaddress>
+          <feedbackgroupaddress>1/2/2</feedbackgroupaddress>
+          <secondgroupaddress />
+          <type>0</type>
+          <moduletype>0</moduletype>
+          <index>0</index>
+          <id>5</id>
+          <x>0</x>
+          <y>0</y>
+          <iconIndex>1</iconIndex>
+        </component>
+        <component>
+          <name>فن 1</name>
+          <groupaddress>2/1/4</groupaddress>
+          <feedbackgroupaddress />
+          <secondgroupaddress>0;84;168;255</secondgroupaddress>
+          <type>6</type>
+          <moduletype>1</moduletype>
+          <index>0</index>
+          <id>24</id>
+          <x>0</x>
+          <y>0</y>
+          <iconIndex>9</iconIndex>
+        </component>
+        <component>
+          <name>مود</name>
+          <groupaddress>1/4/13</groupaddress>
+          <feedbackgroupaddress>1/4/14</feedbackgroupaddress>
+          <secondgroupaddress />
+          <type>17</type>
+          <moduletype>2</moduletype>
+          <index>0</index>
+          <id>34</id>
+          <x>0</x>
+          <y>0</y>
+          <iconIndex>19</iconIndex>
+        </component>
+        <component>
+          <name>لوستر چپ 2</name>
+          <groupaddress>1/2/3</groupaddress>
+          <feedbackgroupaddress>1/2/4</feedbackgroupaddress>
+          <secondgroupaddress />
+          <type>0</type>
+          <moduletype>0</moduletype>
+          <index>1</index>
+          <id>6</id>
+          <x>0</x>
+          <y>0</y>
+          <iconIndex>1</iconIndex>
+        </component>
+        <component>
+          <name>دما محیط 1</name>
+          <groupaddress>2/1/1</groupaddress>
+          <feedbackgroupaddress />
+          <secondgroupaddress />
+          <type>5</type>
+          <moduletype>1</moduletype>
+          <index>1</index>
+          <id>25</id>
+          <x>0</x>
+          <y>0</y>
+          <iconIndex>8</iconIndex>
+        </component>
+        <component>
+          <name>لوستر وسط 1</name>
+          <groupaddress>1/2/5</groupaddress>
+          <feedbackgroupaddress>1/2/6</feedbackgroupaddress>
+          <secondgroupaddress />
+          <type>0</type>
+          <moduletype>0</moduletype>
+          <index>2</index>
+          <id>7</id>
+          <x>0</x>
+          <y>0</y>
+          <iconIndex>1</iconIndex>
+        </component>
+        <component>
+          <name>تنظیم دما 1</name>
+          <groupaddress>2/1/7</groupaddress>
+          <feedbackgroupaddress />
+          <secondgroupaddress>10;11;12;13</secondgroupaddress>
+          <type>4</type>
+          <moduletype>1</moduletype>
+          <index>2</index>
+          <id>26</id>
+          <x>0</x>
+          <y>0</y>
+          <iconIndex>7</iconIndex>
+        </component>
+        <component>
+          <name>لوستر وسط 2</name>
+          <groupaddress>1/2/7</groupaddress>
+          <feedbackgroupaddress>1/2/8</feedbackgroupaddress>
+          <secondgroupaddress />
+          <type>0</type>
+          <moduletype>0</moduletype>
+          <index>3</index>
+          <id>8</id>
+          <x>0</x>
+          <y>0</y>
+          <iconIndex>1</iconIndex>
+        </component>
+        <component>
+          <name>خاموش/روشن 1</name>
+          <groupaddress>1/4/7</groupaddress>
+          <feedbackgroupaddress>1/4/8</feedbackgroupaddress>
+          <secondgroupaddress />
+          <type>0</type>
+          <moduletype>1</moduletype>
+          <index>3</index>
+          <id>27</id>
+          <x>0</x>
+          <y>0</y>
+          <iconIndex>4</iconIndex>
+        </component>
+        <component>
+          <name>لوستر راست 1</name>
+          <groupaddress>1/2/13</groupaddress>
+          <feedbackgroupaddress>1/2/14</feedbackgroupaddress>
+          <secondgroupaddress />
+          <type>0</type>
+          <moduletype>0</moduletype>
+          <index>4</index>
+          <id>18</id>
+          <x>0</x>
+          <y>0</y>
+          <iconIndex>0</iconIndex>
+        </component>
+        <component>
+          <name>اتو/منوال 1</name>
+          <groupaddress>2/1/6</groupaddress>
+          <feedbackgroupaddress />
+          <secondgroupaddress />
+          <type>0</type>
+          <moduletype>1</moduletype>
+          <index>4</index>
+          <id>28</id>
+          <x>0</x>
+          <y>0</y>
+          <iconIndex>18</iconIndex>
+        </component>
+        <component>
+          <name>لوستر راست 2</name>
+          <groupaddress>1/2/15</groupaddress>
+          <feedbackgroupaddress>1/2/16</feedbackgroupaddress>
+          <secondgroupaddress />
+          <type>0</type>
+          <moduletype>0</moduletype>
+          <index>5</index>
+          <id>19</id>
+          <x>0</x>
+          <y>0</y>
+          <iconIndex>0</iconIndex>
+        </component>
+        <component>
+          <name>فن 2</name>
+          <groupaddress>2/2/4</groupaddress>
+          <feedbackgroupaddress />
+          <secondgroupaddress>0;84;168;255</secondgroupaddress>
+          <type>6</type>
+          <moduletype>1</moduletype>
+          <index>5</index>
+          <id>29</id>
+          <x>0</x>
+          <y>0</y>
+          <iconIndex>9</iconIndex>
+        </component>
+        <component>
+          <name>هالوژن 1</name>
+          <groupaddress>1/2/25</groupaddress>
+          <feedbackgroupaddress>1/2/26</feedbackgroupaddress>
+          <secondgroupaddress />
+          <type>0</type>
+          <moduletype>0</moduletype>
+          <index>6</index>
+          <id>9</id>
+          <x>0</x>
+          <y>0</y>
+          <iconIndex>3</iconIndex>
+        </component>
+        <component>
+          <name>دما محیط 2</name>
+          <groupaddress>2/2/1</groupaddress>
+          <feedbackgroupaddress />
+          <secondgroupaddress />
+          <type>5</type>
+          <moduletype>1</moduletype>
+          <index>6</index>
+          <id>30</id>
+          <x>0</x>
+          <y>0</y>
+          <iconIndex>8</iconIndex>
+        </component>
+        <component>
+          <name>هالوژن 2</name>
+          <groupaddress>1/3/21</groupaddress>
+          <feedbackgroupaddress>1/3/22</feedbackgroupaddress>
+          <secondgroupaddress />
+          <type>0</type>
+          <moduletype>0</moduletype>
+          <index>7</index>
+          <id>10</id>
+          <x>0</x>
+          <y>0</y>
+          <iconIndex>3</iconIndex>
+        </component>
+        <component>
+          <name>تنظیم دما 2</name>
+          <groupaddress>2/2/7</groupaddress>
+          <feedbackgroupaddress />
+          <secondgroupaddress>10;11;12;13</secondgroupaddress>
+          <type>4</type>
+          <moduletype>1</moduletype>
+          <index>7</index>
+          <id>31</id>
+          <x>0</x>
+          <y>0</y>
+          <iconIndex>7</iconIndex>
+        </component>
+        <component>
+          <name>هالوژن 3</name>
+          <groupaddress>1/3/29</groupaddress>
+          <feedbackgroupaddress>1/3/30</feedbackgroupaddress>
+          <secondgroupaddress />
+          <type>0</type>
+          <moduletype>0</moduletype>
+          <index>8</index>
+          <id>17</id>
+          <x>0</x>
+          <y>0</y>
+          <iconIndex>0</iconIndex>
+        </component>
+        <component>
+          <name>خاموش/روشن 2</name>
+          <groupaddress>1/4/9</groupaddress>
+          <feedbackgroupaddress>1/4/10</feedbackgroupaddress>
+          <secondgroupaddress />
+          <type>0</type>
+          <moduletype>1</moduletype>
+          <index>8</index>
+          <id>32</id>
+          <x>0</x>
+          <y>0</y>
+          <iconIndex>4</iconIndex>
+        </component>
+        <component>
+          <name>هالوژن 4</name>
+          <groupaddress>1/3/31</groupaddress>
+          <feedbackgroupaddress>1/3/32</feedbackgroupaddress>
+          <secondgroupaddress />
+          <type>0</type>
+          <moduletype>0</moduletype>
+          <index>9</index>
+          <id>22</id>
+          <x>0</x>
+          <y>0</y>
+          <iconIndex>0</iconIndex>
+        </component>
+        <component>
+          <name>اتو/منوال 2</name>
+          <groupaddress>2/2/6</groupaddress>
+          <feedbackgroupaddress />
+          <secondgroupaddress />
+          <type>0</type>
+          <moduletype>1</moduletype>
+          <index>9</index>
+          <id>33</id>
+          <x>0</x>
+          <y>0</y>
+          <iconIndex>18</iconIndex>
+        </component>
+        <component>
+          <name>دیوارکوب راست</name>
+          <groupaddress>1/1/7</groupaddress>
+          <feedbackgroupaddress>1/1/8</feedbackgroupaddress>
+          <secondgroupaddress />
+          <type>0</type>
+          <moduletype>0</moduletype>
+          <index>10</index>
+          <id>21</id>
+          <x>0</x>
+          <y>0</y>
+          <iconIndex>0</iconIndex>
+        </component>
+        <component>
+          <name>روشنایی 1</name>
+          <groupaddress>1/2/29</groupaddress>
+          <feedbackgroupaddress>1/2/30</feedbackgroupaddress>
+          <secondgroupaddress />
+          <type>0</type>
+          <moduletype>0</moduletype>
+          <index>11</index>
+          <id>11</id>
+          <x>0</x>
+          <y>0</y>
+          <iconIndex>1</iconIndex>
+        </component>
+        <component>
+          <name>روشنایی 2</name>
+          <groupaddress>1/1/3</groupaddress>
+          <feedbackgroupaddress>1/1/4</feedbackgroupaddress>
+          <secondgroupaddress />
+          <type>0</type>
+          <moduletype>0</moduletype>
+          <index>12</index>
+          <id>16</id>
+          <x>0</x>
+          <y>0</y>
+          <iconIndex>3</iconIndex>
+        </component>
+        <component>
+          <name>روشنایی 3</name>
+          <groupaddress>1/1/5</groupaddress>
+          <feedbackgroupaddress>1/1/6</feedbackgroupaddress>
+          <secondgroupaddress />
+          <type>0</type>
+          <moduletype>0</moduletype>
+          <index>13</index>
+          <id>20</id>
+          <x>0</x>
+          <y>0</y>
+          <iconIndex>0</iconIndex>
+        </component>
+        <component>
+          <name>روشنایی 4</name>
+          <groupaddress>1/1/1</groupaddress>
+          <feedbackgroupaddress>1/1/2</feedbackgroupaddress>
+          <secondgroupaddress />
+          <type>0</type>
+          <moduletype>0</moduletype>
+          <index>14</index>
+          <id>23</id>
+          <x>0</x>
+          <y>0</y>
+          <iconIndex>0</iconIndex>
+        </component>
+      </room>
+      <room>
+        <name>آشپزخانه</name>
+        <index>1</index>
+        <image />
+        <id>6</id>
+        <categoryName1>روشنایی</categoryName1>
+        <categoryName2>فنکوئل</categoryName2>
+        <categoryName3 />
+        <component>
+          <name>لوستر</name>
+          <groupaddress>1/2/29</groupaddress>
+          <feedbackgroupaddress>1/2/30</feedbackgroupaddress>
+          <secondgroupaddress />
+          <type>0</type>
+          <moduletype>0</moduletype>
+          <index>0</index>
+          <id>24</id>
+          <x>0</x>
+          <y>0</y>
+          <iconIndex>1</iconIndex>
+        </component>
+        <component>
+          <name>فن</name>
+          <groupaddress>2/3/4</groupaddress>
+          <feedbackgroupaddress />
+          <secondgroupaddress>0;84;168;255</secondgroupaddress>
+          <type>6</type>
+          <moduletype>1</moduletype>
+          <index>0</index>
+          <id>31</id>
+          <x>0</x>
+          <y>0</y>
+          <iconIndex>9</iconIndex>
+        </component>
+        <component>
+          <name>هالوژن 1</name>
+          <groupaddress>1/2/31</groupaddress>
+          <feedbackgroupaddress>1/2/32</feedbackgroupaddress>
+          <secondgroupaddress />
+          <type>0</type>
+          <moduletype>0</moduletype>
+          <index>1</index>
+          <id>25</id>
+          <x>0</x>
+          <y>0</y>
+          <iconIndex>1</iconIndex>
+        </component>
+        <component>
+          <name>دما محیط</name>
+          <groupaddress>2/3/1</groupaddress>
+          <feedbackgroupaddress />
+          <secondgroupaddress />
+          <type>5</type>
+          <moduletype>1</moduletype>
+          <index>1</index>
+          <id>32</id>
+          <x>0</x>
+          <y>0</y>
+          <iconIndex>8</iconIndex>
+        </component>
+        <component>
+          <name>هالوژن 2</name>
+          <groupaddress>1/3/25</groupaddress>
+          <feedbackgroupaddress>1/3/26</feedbackgroupaddress>
+          <secondgroupaddress />
+          <type>0</type>
+          <moduletype>0</moduletype>
+          <index>2</index>
+          <id>26</id>
+          <x>0</x>
+          <y>0</y>
+          <iconIndex>1</iconIndex>
+        </component>
+        <component>
+          <name>تنظیم دما</name>
+          <groupaddress>2/3/7</groupaddress>
+          <feedbackgroupaddress />
+          <secondgroupaddress>10;11;12;13</secondgroupaddress>
+          <type>4</type>
+          <moduletype>1</moduletype>
+          <index>2</index>
+          <id>33</id>
+          <x>0</x>
+          <y>0</y>
+          <iconIndex>7</iconIndex>
+        </component>
+        <component>
+          <name>نورمخفی</name>
+          <groupaddress>1/3/27</groupaddress>
+          <feedbackgroupaddress>1/3/28</feedbackgroupaddress>
+          <secondgroupaddress />
+          <type>0</type>
+          <moduletype>0</moduletype>
+          <index>3</index>
+          <id>27</id>
+          <x>0</x>
+          <y>0</y>
+          <iconIndex>1</iconIndex>
+        </component>
+        <component>
+          <name>خاموش/روشن</name>
+          <groupaddress>1/4/11</groupaddress>
+          <feedbackgroupaddress>1/4/12</feedbackgroupaddress>
+          <secondgroupaddress />
+          <type>0</type>
+          <moduletype>1</moduletype>
+          <index>3</index>
+          <id>34</id>
+          <x>0</x>
+          <y>0</y>
+          <iconIndex>4</iconIndex>
+        </component>
+        <component>
+          <name>لوستر ورودی 1</name>
+          <groupaddress>1/1/25</groupaddress>
+          <feedbackgroupaddress>1/1/26</feedbackgroupaddress>
+          <secondgroupaddress />
+          <type>0</type>
+          <moduletype>0</moduletype>
+          <index>4</index>
+          <id>28</id>
+          <x>0</x>
+          <y>0</y>
+          <iconIndex>1</iconIndex>
+        </component>
+        <component>
+          <name>اتو/منوال</name>
+          <groupaddress>2/3/6</groupaddress>
+          <feedbackgroupaddress />
+          <secondgroupaddress />
+          <type>0</type>
+          <moduletype>1</moduletype>
+          <index>4</index>
+          <id>35</id>
+          <x>0</x>
+          <y>0</y>
+          <iconIndex>18</iconIndex>
+        </component>
+        <component>
+          <name>لوستر ورودی 2</name>
+          <groupaddress>1/1/27</groupaddress>
+          <feedbackgroupaddress>1/1/28</feedbackgroupaddress>
+          <secondgroupaddress />
+          <type>0</type>
+          <moduletype>0</moduletype>
+          <index>5</index>
+          <id>29</id>
+          <x>0</x>
+          <y>0</y>
+          <iconIndex>1</iconIndex>
+        </component>
+        <component>
+          <name>هالوژن ورودی</name>
+          <groupaddress>1/3/11</groupaddress>
+          <feedbackgroupaddress>1/3/12</feedbackgroupaddress>
+          <secondgroupaddress />
+          <type>0</type>
+          <moduletype>0</moduletype>
+          <index>6</index>
+          <id>30</id>
+          <x>0</x>
+          <y>0</y>
+          <iconIndex>1</iconIndex>
+        </component>
+      </room>
+      <room>
+        <name>اتاق بزرگ</name>
+        <index>3</index>
+        <image />
+        <id>7</id>
+        <categoryName1>روشنایی</categoryName1>
+        <categoryName2>فنکوئل</categoryName2>
+        <categoryName3 />
+        <component>
+          <name>لوستر 1</name>
+          <groupaddress>1/1/21</groupaddress>
+          <feedbackgroupaddress>1/1/22</feedbackgroupaddress>
+          <secondgroupaddress />
+          <type>0</type>
+          <moduletype>0</moduletype>
+          <index>0</index>
+          <id>1</id>
+          <x>0</x>
+          <y>0</y>
+          <iconIndex>1</iconIndex>
+        </component>
+        <component>
+          <name>فن</name>
+          <groupaddress>2/4/4</groupaddress>
+          <feedbackgroupaddress />
+          <secondgroupaddress>0;84;168;255</secondgroupaddress>
+          <type>6</type>
+          <moduletype>1</moduletype>
+          <index>0</index>
+          <id>6</id>
+          <x>0</x>
+          <y>0</y>
+          <iconIndex>9</iconIndex>
+        </component>
+        <component>
+          <name>لوستر 2</name>
+          <groupaddress>1/1/23</groupaddress>
+          <feedbackgroupaddress>1/1/24</feedbackgroupaddress>
+          <secondgroupaddress />
+          <type>0</type>
+          <moduletype>0</moduletype>
+          <index>1</index>
+          <id>2</id>
+          <x>0</x>
+          <y>0</y>
+          <iconIndex>1</iconIndex>
+        </component>
+        <component>
+          <name>دما محیط</name>
+          <groupaddress>2/4/1</groupaddress>
+          <feedbackgroupaddress />
+          <secondgroupaddress />
+          <type>5</type>
+          <moduletype>1</moduletype>
+          <index>1</index>
+          <id>7</id>
+          <x>0</x>
+          <y>0</y>
+          <iconIndex>8</iconIndex>
+        </component>
+        <component>
+          <name>هالوژن 1</name>
+          <groupaddress>1/3/7</groupaddress>
+          <feedbackgroupaddress>1/3/8</feedbackgroupaddress>
+          <secondgroupaddress />
+          <type>0</type>
+          <moduletype>0</moduletype>
+          <index>2</index>
+          <id>3</id>
+          <x>0</x>
+          <y>0</y>
+          <iconIndex>1</iconIndex>
+        </component>
+        <component>
+          <name>تنظیم دما</name>
+          <groupaddress>2/4/7</groupaddress>
+          <feedbackgroupaddress />
+          <secondgroupaddress>10;11;12;13</secondgroupaddress>
+          <type>4</type>
+          <moduletype>1</moduletype>
+          <index>2</index>
+          <id>8</id>
+          <x>0</x>
+          <y>0</y>
+          <iconIndex>7</iconIndex>
+        </component>
+        <component>
+          <name>هالوژن 2</name>
+          <groupaddress>1/3/9</groupaddress>
+          <feedbackgroupaddress>1/3/10</feedbackgroupaddress>
+          <secondgroupaddress />
+          <type>0</type>
+          <moduletype>0</moduletype>
+          <index>3</index>
+          <id>4</id>
+          <x>0</x>
+          <y>0</y>
+          <iconIndex>1</iconIndex>
+        </component>
+        <component>
+          <name>خاموش/روشن</name>
+          <groupaddress>1/4/1</groupaddress>
+          <feedbackgroupaddress>1/4/2</feedbackgroupaddress>
+          <secondgroupaddress />
+          <type>0</type>
+          <moduletype>1</moduletype>
+          <index>3</index>
+          <id>9</id>
+          <x>0</x>
+          <y>0</y>
+          <iconIndex>4</iconIndex>
+        </component>
+        <component>
+          <name>هالوژن ورودی</name>
+          <groupaddress>1/1/9</groupaddress>
+          <feedbackgroupaddress>1/1/10</feedbackgroupaddress>
+          <secondgroupaddress />
+          <type>0</type>
+          <moduletype>0</moduletype>
+          <index>4</index>
+          <id>5</id>
+          <x>0</x>
+          <y>0</y>
+          <iconIndex>1</iconIndex>
+        </component>
+        <component>
+          <name>اتو/منوال</name>
+          <groupaddress>2/4/6</groupaddress>
+          <feedbackgroupaddress />
+          <secondgroupaddress />
+          <type>0</type>
+          <moduletype>1</moduletype>
+          <index>4</index>
+          <id>10</id>
+          <x>0</x>
+          <y>0</y>
+          <iconIndex>18</iconIndex>
+        </component>
+        <component>
+          <name>روشنایی</name>
+          <groupaddress>1/1/11</groupaddress>
+          <feedbackgroupaddress>1/1/12</feedbackgroupaddress>
+          <secondgroupaddress />
+          <type>0</type>
+          <moduletype>0</moduletype>
+          <index>5</index>
+          <id>11</id>
+          <x>0</x>
+          <y>0</y>
+          <iconIndex>1</iconIndex>
+        </component>
+      </room>
+      <room>
+        <name>اتاق کنار آشپزخانه</name>
+        <index>4</index>
+        <image />
+        <id>8</id>
+        <categoryName1>روشنایی</categoryName1>
+        <categoryName2>فنکوئل</categoryName2>
+        <categoryName3 />
+        <component>
+          <name>لوستر 1</name>
+          <groupaddress>1/1/17</groupaddress>
+          <feedbackgroupaddress>1/1/18</feedbackgroupaddress>
+          <secondgroupaddress />
+          <type>0</type>
+          <moduletype>0</moduletype>
+          <index>0</index>
+          <id>1</id>
+          <x>0</x>
+          <y>0</y>
+          <iconIndex>1</iconIndex>
+        </component>
+        <component>
+          <name>فن</name>
+          <groupaddress>2/5/4</groupaddress>
+          <feedbackgroupaddress />
+          <secondgroupaddress>0;84;168;255</secondgroupaddress>
+          <type>6</type>
+          <moduletype>1</moduletype>
+          <index>0</index>
+          <id>6</id>
+          <x>0</x>
+          <y>0</y>
+          <iconIndex>9</iconIndex>
+        </component>
+        <component>
+          <name>لوستر 2</name>
+          <groupaddress>1/1/19</groupaddress>
+          <feedbackgroupaddress>1/1/20</feedbackgroupaddress>
+          <secondgroupaddress />
+          <type>0</type>
+          <moduletype>0</moduletype>
+          <index>1</index>
+          <id>2</id>
+          <x>0</x>
+          <y>0</y>
+          <iconIndex>1</iconIndex>
+        </component>
+        <component>
+          <name>دما محیط</name>
+          <groupaddress>2/5/1</groupaddress>
+          <feedbackgroupaddress />
+          <secondgroupaddress />
+          <type>5</type>
+          <moduletype>1</moduletype>
+          <index>1</index>
+          <id>7</id>
+          <x>0</x>
+          <y>0</y>
+          <iconIndex>8</iconIndex>
+        </component>
+        <component>
+          <name>هالوژن 1</name>
+          <groupaddress>1/3/3</groupaddress>
+          <feedbackgroupaddress>1/3/4</feedbackgroupaddress>
+          <secondgroupaddress />
+          <type>0</type>
+          <moduletype>0</moduletype>
+          <index>2</index>
+          <id>3</id>
+          <x>0</x>
+          <y>0</y>
+          <iconIndex>1</iconIndex>
+        </component>
+        <component>
+          <name>تنظیم دما</name>
+          <groupaddress>2/5/7</groupaddress>
+          <feedbackgroupaddress />
+          <secondgroupaddress>10;11;12;13</secondgroupaddress>
+          <type>4</type>
+          <moduletype>1</moduletype>
+          <index>2</index>
+          <id>8</id>
+          <x>0</x>
+          <y>0</y>
+          <iconIndex>7</iconIndex>
+        </component>
+        <component>
+          <name>هالوژن 2</name>
+          <groupaddress>1/3/5</groupaddress>
+          <feedbackgroupaddress>1/3/6</feedbackgroupaddress>
+          <secondgroupaddress />
+          <type>0</type>
+          <moduletype>0</moduletype>
+          <index>3</index>
+          <id>4</id>
+          <x>0</x>
+          <y>0</y>
+          <iconIndex>1</iconIndex>
+        </component>
+        <component>
+          <name>خاموش/روشن</name>
+          <groupaddress>1/4/5</groupaddress>
+          <feedbackgroupaddress>1/4/6</feedbackgroupaddress>
+          <secondgroupaddress />
+          <type>0</type>
+          <moduletype>1</moduletype>
+          <index>3</index>
+          <id>9</id>
+          <x>0</x>
+          <y>0</y>
+          <iconIndex>4</iconIndex>
+        </component>
+        <component>
+          <name>روشنایی</name>
+          <groupaddress>1/1/15</groupaddress>
+          <feedbackgroupaddress>1/1/16</feedbackgroupaddress>
+          <secondgroupaddress />
+          <type>0</type>
+          <moduletype>0</moduletype>
+          <index>4</index>
+          <id>5</id>
+          <x>0</x>
+          <y>0</y>
+          <iconIndex>1</iconIndex>
+        </component>
+        <component>
+          <name>اتو/منوال</name>
+          <groupaddress>2/5/6</groupaddress>
+          <feedbackgroupaddress />
+          <secondgroupaddress />
+          <type>0</type>
+          <moduletype>1</moduletype>
+          <index>4</index>
+          <id>10</id>
+          <x>0</x>
+          <y>0</y>
+          <iconIndex>18</iconIndex>
+        </component>
+      </room>
+      <room>
+        <name>اتاق وسط</name>
+        <index>5</index>
+        <image />
+        <id>9</id>
+        <categoryName1>روشنایی</categoryName1>
+        <categoryName2>فنکوئل</categoryName2>
+        <categoryName3 />
+        <component>
+          <name>لوستر</name>
+          <groupaddress>1/2/23</groupaddress>
+          <feedbackgroupaddress>1/2/24</feedbackgroupaddress>
+          <secondgroupaddress />
+          <type>0</type>
+          <moduletype>0</moduletype>
+          <index>0</index>
+          <id>1</id>
+          <x>0</x>
+          <y>0</y>
+          <iconIndex>1</iconIndex>
+        </component>
+        <component>
+          <name>فن</name>
+          <groupaddress>2/6/4</groupaddress>
+          <feedbackgroupaddress />
+          <secondgroupaddress>0;84;168;255</secondgroupaddress>
+          <type>6</type>
+          <moduletype>1</moduletype>
+          <index>0</index>
+          <id>7</id>
+          <x>0</x>
+          <y>0</y>
+          <iconIndex>9</iconIndex>
+        </component>
+        <component>
+          <name>هالوژن 1</name>
+          <groupaddress>1/3/15</groupaddress>
+          <feedbackgroupaddress>1/3/16</feedbackgroupaddress>
+          <secondgroupaddress />
+          <type>0</type>
+          <moduletype>0</moduletype>
+          <index>1</index>
+          <id>2</id>
+          <x>0</x>
+          <y>0</y>
+          <iconIndex>1</iconIndex>
+        </component>
+        <component>
+          <name>دما محیط</name>
+          <groupaddress>2/6/1</groupaddress>
+          <feedbackgroupaddress />
+          <secondgroupaddress />
+          <type>5</type>
+          <moduletype>1</moduletype>
+          <index>1</index>
+          <id>8</id>
+          <x>0</x>
+          <y>0</y>
+          <iconIndex>8</iconIndex>
+        </component>
+        <component>
+          <name>هالوژن 2</name>
+          <groupaddress>1/3/17</groupaddress>
+          <feedbackgroupaddress>1/3/18</feedbackgroupaddress>
+          <secondgroupaddress />
+          <type>0</type>
+          <moduletype>0</moduletype>
+          <index>2</index>
+          <id>3</id>
+          <x>0</x>
+          <y>0</y>
+          <iconIndex>1</iconIndex>
+        </component>
+        <component>
+          <name>تنظیم دما</name>
+          <groupaddress>2/6/7</groupaddress>
+          <feedbackgroupaddress />
+          <secondgroupaddress>10;11;12;13</secondgroupaddress>
+          <type>4</type>
+          <moduletype>1</moduletype>
+          <index>2</index>
+          <id>9</id>
+          <x>0</x>
+          <y>0</y>
+          <iconIndex>7</iconIndex>
+        </component>
+        <component>
+          <name>هالوژن ورودی</name>
+          <groupaddress>1/3/23</groupaddress>
+          <feedbackgroupaddress>1/3/24</feedbackgroupaddress>
+          <secondgroupaddress />
+          <type>0</type>
+          <moduletype>0</moduletype>
+          <index>3</index>
+          <id>4</id>
+          <x>0</x>
+          <y>0</y>
+          <iconIndex>1</iconIndex>
+        </component>
+        <component>
+          <name>خاموش/روشن</name>
+          <groupaddress>1/4/3</groupaddress>
+          <feedbackgroupaddress>1/4/4</feedbackgroupaddress>
+          <secondgroupaddress />
+          <type>0</type>
+          <moduletype>1</moduletype>
+          <index>3</index>
+          <id>10</id>
+          <x>0</x>
+          <y>0</y>
+          <iconIndex>4</iconIndex>
+        </component>
+        <component>
+          <name>روشنایی 1</name>
+          <groupaddress>1/2/21</groupaddress>
+          <feedbackgroupaddress>1/2/22</feedbackgroupaddress>
+          <secondgroupaddress />
+          <type>0</type>
+          <moduletype>0</moduletype>
+          <index>4</index>
+          <id>5</id>
+          <x>0</x>
+          <y>0</y>
+          <iconIndex>1</iconIndex>
+        </component>
+        <component>
+          <name>اتو/منوال</name>
+          <groupaddress>2/6/6</groupaddress>
+          <feedbackgroupaddress />
+          <secondgroupaddress />
+          <type>0</type>
+          <moduletype>1</moduletype>
+          <index>4</index>
+          <id>11</id>
+          <x>0</x>
+          <y>0</y>
+          <iconIndex>18</iconIndex>
+        </component>
+        <component>
+          <name>روشنایی 2</name>
+          <groupaddress>1/1/13</groupaddress>
+          <feedbackgroupaddress>1/1/14</feedbackgroupaddress>
+          <secondgroupaddress />
+          <type>0</type>
+          <moduletype>0</moduletype>
+          <index>5</index>
+          <id>6</id>
+          <x>0</x>
+          <y>0</y>
+          <iconIndex>1</iconIndex>
+        </component>
+      </room>
+    </rooms>
+    <scenarios>
+      <scenario />
+    </scenarios>
+  </SmartHomeSettings>
+</SPadSettings>
